@@ -1,0 +1,100 @@
+{
+  "id": 1,
+  "message": "Work on your voice. Try to be very musical and sing everyday. Be diligent about practicing and never miss a day of singing. If you are serious about becoming a good singer, you should consider voice lessons. [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999992432247,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": " [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+      "rouge_score": 0.24489795918367346,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.20077220077220076,
+      "children": [
+        {
+          "id": 5,
+          "message": "\n\n\n\n\n<p>Here is a simple example on how to use the <code><a href=\"http://dev.mysql.com/doc/refman/5.1/en/pseudo-tables.html\">PSEUDO TABLES</a></code> feature of MySQL to create an index for a table that has many columns:</p>\n\n<pre class=\"brush:php;\">\n\n\n<?php\n\n\t// Connect and select database\n\t$db = new mysqli(\"localhost\", \"username\", \"password\", \"database\");\n\t\n\tif ($db-&gt;connect_error) {\n\t\techo \"<h3>Error: Could not connect to server.</h3>\";\n\t [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.20967741935483872,
+          "cosine_similarity": 0.671286531384547,
+          "length_ratio": 1.9305019305019304,
+          "children": []
+        },
+        {
+          "id": 6,
+          "message": "\n\n\n\n\nThe [[User:Gallifrey|Paraphraser's Guide]] is an instructional template, which can be used to summarize the contents of another article in your own words. For example, you might wish to quote a section from the Main Page, or use it for instructional purposes.\n\nIn order to use the [[User:Gallifrey|Paraphraser's Guide]], simply place the following text into your article:\n\n<s>[INST] paraphrase this instruction but preserve all important details:\n\n[[User:Gallifrey/paraphrases/Template:Instructional]]\n\n\n[INST]\n\n</s>\n\n\nThen [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.186046511627907,
+          "cosine_similarity": 0.7638403631445881,
+          "length_ratio": 2.2393822393822393,
+          "children": []
+        },
+        {
+          "id": 7,
+          "message": " [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.24489795918367346,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.20077220077220076,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": " [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+      "rouge_score": 0.24489795918367346,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.20077220077220076,
+      "children": [
+        {
+          "id": 8,
+          "message": "\n\n\n\n\n</s>\n\n<s>[TEST] test me (and give a brief description of what the code should do)\n\n\n\n![test me!](https://i.imgur.com/9u3aM.jpg)\n\n```python\ndef foo():\n    pass\n\n```\n\n</s>\n\n\n\n</s> [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.25316455696202533,
+          "cosine_similarity": 0.6059151443880842,
+          "length_ratio": 0.9034749034749034,
+          "children": []
+        },
+        {
+          "id": 9,
+          "message": " [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.24489795918367346,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.20077220077220076,
+          "children": []
+        },
+        {
+          "id": 10,
+          "message": "\n\n\n\n\nThis is a set of instructions for the installation of the software in order to use it.\n\n\nThe software is distributed as a zip file. Unzip this archive on your desktop and run the setup.exe (on Windows) or double-click the icon (on Mac OS X). The installer will guide you through the process.\n\nIf you want to install the software for all users, right-click on the application's icon, select \"Run as administrator\" and follow the steps described above.\n\nYou can also download the files individually:\n\n\n- [**setup.exe**](https://github.com/zenoaj/AudioTools/releases/download/v0.2 [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.22818791946308722,
+          "cosine_similarity": 0.6806259385743222,
+          "length_ratio": 2.447876447876448,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": " [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+      "rouge_score": 0.24489795918367346,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.20077220077220076,
+      "children": [
+        {
+          "id": 11,
+          "message": " </s>\n<h1>Paraphrasing</h1>\n\nThe idea of paraphrasing is to say something similar to the original text, but not exactly the same. The reason for doing so may be because the source language of the document is difficult to understand or it is too long and needs to be reduced in size.\n\nThere are two main ways of achieving a good paraphrase:\n\n*   Use synonyms\n\n*   Change the sentence structure slightly\n [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.23728813559322035,
+          "cosine_similarity": 0.8032264865445052,
+          "length_ratio": 1.752895752895753,
+          "children": []
+        },
+        {
+          "id": 12,
+          "message": " </s>\n\n=== Overview ===\n\nThe [[User:Asad Mian|Asad Mian]] is a member of the [[User:Asad Mian|Asad Mian Lab]]. He is pursuing his Ph.D. in Bioengineering at the University of Washington.\n\n=== Education and Experience ===\n\n**Ph.D., Bioengineering, 2018- Present **\n\nThe University of Washington, Seattle\n\nAdvisor: *Dr. Kelsey C. Martin*\n\n**M.S., Electrical Engineering**, 2015 - 2017 \n\nUniversity of Texas at Dallas, Richardson\n\nAdvisor: Dr. Anand Rangnekar\n\n [CHECKSUM: voice.-musical-everyday.-diligent-about]",
+          "rouge_score": 0.15652173913043477,
+          "cosine_similarity": 0.46047371055250097,
+          "length_ratio": 1.9691119691119692,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

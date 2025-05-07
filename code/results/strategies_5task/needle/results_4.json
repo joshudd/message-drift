@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Search for your laptop [nid3] model [nid4] online to find out if the keys come off. On some laptop models, the keycaps can be gently pried off, giving you access to the surface beneath the keys. However, the keycaps on some laptops [nid1] are permanently [nid2] attached. Do an online search to determine if, and how, the keys can be removed.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+      "rouge_score": 0.396039603960396,
+      "cosine_similarity": 0.5838050360555689,
+      "length_ratio": 0.316,
+      "children": [
+        {
+          "id": 3,
+          "message": "\n\n\n\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+          "rouge_score": 0.396039603960396,
+          "cosine_similarity": 0.5838050360555689,
+          "length_ratio": 0.328,
+          "children": [
+            {
+              "id": 4,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+              "rouge_score": 0.396039603960396,
+              "cosine_similarity": 0.5838050360555689,
+              "length_ratio": 0.316,
+              "children": [
+                {
+                  "id": 6,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.396039603960396,
+                  "cosine_similarity": 0.5838050360555689,
+                  "length_ratio": 0.316,
+                  "children": [
+                    {
+                      "id": 12,
+                      "message": "\n\n\n\n\n# [nid1]\n\n[ nid2 ] \n\n# [nid3]\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                      "rouge_score": 0.4423076923076923,
+                      "cosine_similarity": 0.5860525839265049,
+                      "length_ratio": 0.39,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 7,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.396039603960396,
+                  "cosine_similarity": 0.5838050360555689,
+                  "length_ratio": 0.316,
+                  "children": []
+                },
+                {
+                  "id": 8,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.396039603960396,
+                  "cosine_similarity": 0.5838050360555689,
+                  "length_ratio": 0.316,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+              "rouge_score": 0.396039603960396,
+              "cosine_similarity": 0.5838050360555689,
+              "length_ratio": 0.316,
+              "children": [
+                {
+                  "id": 9,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.396039603960396,
+                  "cosine_similarity": 0.5838050360555689,
+                  "length_ratio": 0.316,
+                  "children": []
+                },
+                {
+                  "id": 10,
+                  "message": "\n\n\n\n\n\n<sup>1</sup>. [nid1]\n\n<sup>2</sup>. [nid2]\n\n\n\n<sup>3</sup>. [nid3]\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.40707964601769914,
+                  "cosine_similarity": 0.5838050360555689,
+                  "length_ratio": 0.46,
+                  "children": []
+                },
+                {
+                  "id": 11,
+                  "message": " This is the main page of the course. It has links to topics and homeworks.\n\n## Links\n\n- [Topics](topics.md) - a list of topics.\n- [Homeworks](homeworks.md)\n\n<!---\n\n### Topics\n\nA detailed description of each topic (in terms of content).\n\n#### Topic 1\nSome text about Topic 1 with some cool images and formulas.\n\n##### Sub-topic 1\nAnother sub-topic for Topic 1. Some more text and stuff.\n\n##### Sub-topic 2\nAnd another one. And yet another one.\n\n---\n\nTopic 2\n---\n\nTopic 3\n---\n-->\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'removed.'\n[nid1] marks 'laptops'\n[nid2] marks 'permanently'\n[nid3] marks 'laptop'\n[nid4] marks 'model'",
+                  "rouge_score": 0.3016759776536313,
+                  "cosine_similarity": 0.7028819376871746,
+                  "length_ratio": 1.276,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

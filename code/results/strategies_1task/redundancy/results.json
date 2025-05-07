@@ -1,0 +1,170 @@
+{
+  "id": 1,
+  "message": "Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained. Typically, this will be your dominant eyebrow. Stand in front of a mirror, and try to lift your right eyebrow. Then try to lift only your left eyebrow.\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+      "rouge_score": 0.48484848484848486,
+      "cosine_similarity": 0.9717939441410449,
+      "length_ratio": 0.3465783664459161,
+      "children": [
+        {
+          "id": 3,
+          "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+          "rouge_score": 0.48484848484848486,
+          "cosine_similarity": 0.9717939441410449,
+          "length_ratio": 0.3465783664459161,
+          "children": [
+            {
+              "id": 6,
+              "message": "\n\n\n\n\n\nThe function of the program is to print a specific message to the console.\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.5132743362831859,
+              "cosine_similarity": 0.9467882775393388,
+              "length_ratio": 0.5253863134657837,
+              "children": [
+                {
+                  "id": 12,
+                  "message": " </s>\n\n<@INST @>\nThe <a href=\"http://www.php.net/manual/en/book.json.php\">JSON</a> extension provides an easy way to encode and decode objects into JSON (JavaScript Object Notation). The JSON encoding method is a good choice for sending data over the web when you don't know what type of client will be receiving it.\n\nThe JSON extension also comes with a few functions that are used to validate and parse incoming JSON data. These functions can help you catch any errors before they occur, saving you time debugging.\n",
+                  "rouge_score": 0.13173652694610777,
+                  "cosine_similarity": 0.7916716768593873,
+                  "length_ratio": 1.141280353200883,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "message": "\n\n\n\n\n<s>\n[INST] <u>Step 1:</u> Install the application from Steam.\n\n[INST] If you are having problems installing the game, please see this forum post for help: <a href=\"https://forums.steampowered.com/forums/showthread.php?t=2274416\">Unable to install FTL on Windows</a>.\n\n[INST] If you encounter a black screen after installation and can't get into the game, see here for help: <a href=\"https://forums.steampowered.com/forums/showthread.php?t=2269823\">FTL Black Screen</a>.\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.3240223463687151,
+              "cosine_similarity": 0.9191860436689472,
+              "length_ratio": 1.3951434878587197,
+              "children": [
+                {
+                  "id": 13,
+                  "message": "\n\n\n\n\n<s>\n[INST]\nreword this instruction in your own words:\n\n[/INST]\n\n<]\n",
+                  "rouge_score": 0.07058823529411766,
+                  "cosine_similarity": 0.675612978412966,
+                  "length_ratio": 0.15894039735099338,
+                  "children": []
+                },
+                {
+                  "id": 14,
+                  "message": " </s>\n\n<s>[[INST:Build]]</s>\n\n<s>[[INST:Create an account]]</s>\n\n<s>[[INST:Install the software]]</s>\n",
+                  "rouge_score": 0.0,
+                  "cosine_similarity": 0.43818282116988216,
+                  "length_ratio": 0.2251655629139073,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.48484848484848486,
+              "cosine_similarity": 0.9717939441410449,
+              "length_ratio": 0.3465783664459161,
+              "children": [
+                {
+                  "id": 15,
+                  "message": " </s>\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.4799999999999999,
+                  "cosine_similarity": 0.9718073645350902,
+                  "length_ratio": 0.3576158940397351,
+                  "children": []
+                },
+                {
+                  "id": 16,
+                  "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.48484848484848486,
+                  "cosine_similarity": 0.9717939441410449,
+                  "length_ratio": 0.3465783664459161,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": " \n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+          "rouge_score": 0.48484848484848486,
+          "cosine_similarity": 0.9717939441410449,
+          "length_ratio": 0.3509933774834437,
+          "children": [
+            {
+              "id": 9,
+              "message": "\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.48484848484848486,
+              "cosine_similarity": 0.9717939441410449,
+              "length_ratio": 0.3487858719646799,
+              "children": [
+                {
+                  "id": 17,
+                  "message": "\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.48484848484848486,
+                  "cosine_similarity": 0.9717939441410449,
+                  "length_ratio": 0.3487858719646799,
+                  "children": []
+                },
+                {
+                  "id": 18,
+                  "message": " \n\n</s>\n\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.4799999999999999,
+                  "cosine_similarity": 0.9718073645350902,
+                  "length_ratio": 0.36644591611479027,
+                  "children": []
+                },
+                {
+                  "id": 19,
+                  "message": "\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.48484848484848486,
+                  "cosine_similarity": 0.9717939441410449,
+                  "length_ratio": 0.3487858719646799,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+          "rouge_score": 0.48484848484848486,
+          "cosine_similarity": 0.9717939441410449,
+          "length_ratio": 0.3465783664459161,
+          "children": [
+            {
+              "id": 10,
+              "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.48484848484848486,
+              "cosine_similarity": 0.9717939441410449,
+              "length_ratio": 0.3465783664459161,
+              "children": [
+                {
+                  "id": 20,
+                  "message": "\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+                  "rouge_score": 0.48484848484848486,
+                  "cosine_similarity": 0.9717939441410449,
+                  "length_ratio": 0.3465783664459161,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "message": " \n</s>\n\n\nIMPORTANT: Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained.",
+              "rouge_score": 0.4799999999999999,
+              "cosine_similarity": 0.9718073645350902,
+              "length_ratio": 0.3620309050772627,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

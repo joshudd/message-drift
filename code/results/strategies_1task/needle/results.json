@@ -1,0 +1,170 @@
+{
+  "id": 1,
+  "message": "Determine which eyebrow [nid2] is more dominant. Before beginning your training, you will [nid1] want to figure out which eyebrow will be most easily trained. Typically, this will be your dominant eyebrow. Stand in front of a mirror, and try to lift [nid3] your right eyebrow. Then try to lift only your left eyebrow.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999950654601,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+      "rouge_score": 0.4255319148936171,
+      "cosine_similarity": 0.6249244060659529,
+      "length_ratio": 0.32553191489361705,
+      "children": [
+        {
+          "id": 4,
+          "message": "\n\n\n\n\n\n[INST]\nparaphrase this instruction in your own words, but keep all [nidX] tags exactly as they appear:\n[/INST]\n\n<p><strong>[[nid2]]</strong></p>\n\n<p><strong>[[nid3]]</strong></p>\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+          "rouge_score": 0.4098360655737705,
+          "cosine_similarity": 0.8648237017036048,
+          "length_ratio": 0.723404255319149,
+          "children": [
+            {
+              "id": 8,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": [
+                {
+                  "id": 15,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4255319148936171,
+                  "cosine_similarity": 0.6249244060659529,
+                  "length_ratio": 0.32553191489361705,
+                  "children": []
+                },
+                {
+                  "id": 16,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4255319148936171,
+                  "cosine_similarity": 0.6249244060659529,
+                  "length_ratio": 0.32553191489361705,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "message": "\n\n\n\n\n\n[s][INST] paraphrase this instruction in your own words, but keep all [nidX] tags exactly as they appear:\n\n\n[/INST]\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+          "rouge_score": 0.4070796460176991,
+          "cosine_similarity": 0.8648237017036048,
+          "length_ratio": 0.5893617021276596,
+          "children": [
+            {
+              "id": 9,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": [
+                {
+                  "id": 17,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4255319148936171,
+                  "cosine_similarity": 0.6249244060659529,
+                  "length_ratio": 0.32553191489361705,
+                  "children": []
+                },
+                {
+                  "id": 18,
+                  "message": " The best way to do a good job at paraphrasing is to read the passage first, without reading the instructions. After you've finished, read the instructions again and mark everything that needs to be changed.\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4307692307692308,
+                  "cosine_similarity": 0.8629979189487688,
+                  "length_ratio": 0.7680851063829788,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": ">\n\n[[/INST]]\n\n[INST] paraphrase this instruction in your own words, but keep all [nidY] tags exactly as they appear:\n\n[[/INST]]\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+          "rouge_score": 0.4070796460176991,
+          "cosine_similarity": 0.8605659600421549,
+          "length_ratio": 0.5957446808510638,
+          "children": [
+            {
+              "id": 10,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": [
+                {
+                  "id": 19,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4255319148936171,
+                  "cosine_similarity": 0.6249244060659529,
+                  "length_ratio": 0.32553191489361705,
+                  "children": []
+                },
+                {
+                  "id": 20,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+                  "rouge_score": 0.4255319148936171,
+                  "cosine_similarity": 0.6249244060659529,
+                  "length_ratio": 0.32553191489361705,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": []
+            },
+            {
+              "id": 12,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+      "rouge_score": 0.4255319148936171,
+      "cosine_similarity": 0.6249244060659529,
+      "length_ratio": 0.32553191489361705,
+      "children": [
+        {
+          "id": 7,
+          "message": " This is a blockquote. </s>\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+          "rouge_score": 0.46464646464646464,
+          "cosine_similarity": 0.6853640138373317,
+          "length_ratio": 0.3829787234042553,
+          "children": [
+            {
+              "id": 13,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": []
+            },
+            {
+              "id": 14,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'eyebrow.'\n[nid1] marks 'will'\n[nid2] marks 'eyebrow'\n[nid3] marks 'lift'\n[nid4] marks 'dominant.'",
+              "rouge_score": 0.4255319148936171,
+              "cosine_similarity": 0.6249244060659529,
+              "length_ratio": 0.32553191489361705,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

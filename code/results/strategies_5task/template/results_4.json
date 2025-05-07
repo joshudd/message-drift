@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Step 1: Search for your laptop model online to find out if the keys come off\nStep 2: On some laptop models, the keycaps can be gently pried off, giving you access to the surface beneath the keys\nStep 3: However, the keycaps on some laptops are permanently attached\nStep 4: Do an online search to determine if, and how, the keys can be removed.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999818744872,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1:  -<s>[INST] use bold for \"the keys\" and italic for \"online to find out\". That way it stands out better. </s>\n\nThe first two steps are a bit too complicated, they can be simplified by using the instructions from [https://www.reddit.com/r/Ubuntu/comments/q4a7w8/how_to_replace_the_backlight_in_ubuntu_on_a/ How to replace the backlight in Ubuntu on a Lenovo ThinkPad X1 Yoga 3rd Gen.] or [https://help.ubuntu.com/community/Laptop/Thinkpad/T41p/Replacing-Backlight-Module#How_to_replacing\nStep 2: >\n\nThe keyboard is a 20.3 x 7.8 cm matte black plastic case with a thin (2.6 mm) rubber dome membrane covering all of its keys.\n\n## Parts\n\n- [1x Keyboard](https://www.amazon.com/dp/B09WY5C6F4?th=1)\n- [1x USB-C Cable](https://www.amazon.com/dp/B08P9RXYJH?th=1)\n\nNote: if your keyboard has a different model number than the one specified in the first link above, please check the compatibility chart provided by the manufacturer.\n\n![Compatibility Chart\nStep 3: >\n\n# Laptops without a dedicated laptop keyboard\n\nSome laptops have no dedicated numpad keys (e.g. [https://www.dell.com/en-us/shop/dell-inspiron-15-5000-laptop/mz7m9n/4wv2t8/)|Dell Inspiron 5500] or (for example) use Fn+Num to switch between number and symbol layouts.\n\n## Dell inspiron 15 3501\n\nThe following steps are specific for this model. However, it's likely that other models of the same series will also have similar layouts.\n\n### Step 1: Find\nStep 4: >\n\nIf you have a laptop with a keyboard that is protected by an OEM password (e.g. Compaq Presario F700) you need to remove it before installing Linux or Windows on your computer.\n\nThe steps below will help you do this. This procedure has been tested successfully in 2006 on my Dell Inspiron 8600 with Compaq Presario F700 motherboard.\n\nNote: If you have a laptop with a keyboard that is protected by an OEM password but it doesn't use a special BIOS password, see <a href=\"http://www.linuxquestions.org/questions/linux-newbie-8/can-i-install",
+      "rouge_score": 0.21791767554479421,
+      "cosine_similarity": 0.8828209624947726,
+      "length_ratio": 5.728862973760933,
+      "children": [
+        {
+          "id": 3,
+          "message": "Step 1:  \nStep 2:  [EDIT] > This is a small fix for the \"inst\" command. It was used to insert instructions into the assembly code of the game and can be used as such again.\n\nThe difference between these two commands are that the second one will not add an extra line to the log file, which is very important in some cases, as you do not want to see your own lines there.\nStep 3: \nStep 4:  reword this instruction keeping all key details: \"If you are using a <a href=\"https://www.apple.com/support/ipad/\">Apple iPad</a> or other device with an iOS operating system, tap the 'Settings' icon (located in the top right corner of your screen). Tap 'Wi-Fi'. Tap on the Wi-Fi network name and enter the password. Once you have connected to the network, click the refresh button (it looks like a circular arrow) to check if it is now listed as active.\"",
+          "rouge_score": 0.2654867256637168,
+          "cosine_similarity": 0.8747202437141678,
+          "length_ratio": 2.4606413994169096,
+          "children": [
+            {
+              "id": 6,
+              "message": "Step 1: \"\n\n# Copyright (C) 2002-2011\n# Free Software Foundation, Inc.\n\n# This file is part of GNU Autoconf.\n#\n# GNU Autoconf is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 3 of the License, or\n# (at your option) any later version.\n\n# GNU Autoconf is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nStep 2:  > A few fixes\n\n* Added an option to use the original 16x16 sprites instead of the 8x8 ones\n* Fixed some bugs in the editor where it wouldn't allow you to edit certain things.\n* Changed the default background colour from red to black, so it's easier on the eye.\n* Fixed some other minor issues\nStep 3:  This is an example of a simple tutorial for using the [[Piston]] to run your game.\nThis tutorial assumes you have already installed [http://www.libsdl.org/ SDL]. If not, please refer to the [[SDL installation instructions]].<br>\nIf you want to play around with the Piston, click on <a href=\"https://github.com/pistondev/piston-game/raw/master/examples/test/\">here</a> and press F5. The code for the example can be found in the <code>piston-game/examples/test</code> folder.\n\n<h2 id=\"installation\">Installation</h2>\nYou will\nStep 4: ",
+              "rouge_score": 0.2098360655737705,
+              "cosine_similarity": 0.8102029372393046,
+              "length_ratio": 4.072886297376093,
+              "children": [
+                {
+                  "id": 11,
+                  "message": "Step 1: \nStep 2: \nStep 3: \nStep 4:   [INST] This is a test of the emergency broadcast system. This is only a test. If we have an actual emergency, this message will be replaced with more important information.[/INST]\n\n<s>[INST] reword this instruction keeping all key details:\n\n\n\n[/INST]  [INST] This is a test of the emergency broadcast system. This is only a test. If we have an actual emergency, this message will be replaced with more important information.[/INST]\n\n<s>[INST] reword this instruction keeping all key details:\n\n\n\n[/INST]  [INST] This is a test of the emergency broadcast system. This is",
+                  "rouge_score": 0.19161676646706588,
+                  "cosine_similarity": 0.7522738996093002,
+                  "length_ratio": 1.7638483965014577,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "Step 1:  -<s>[INST] I can't get the image to show up when I preview, so I won't be able to check if the links work.</s>\n\n[[https://i.imgur.com/6I5Qy7h.jpg]]\nStep 2: \nStep 3: \nStep 4: ",
+          "rouge_score": 0.28301886792452835,
+          "cosine_similarity": 0.7617778123508456,
+          "length_ratio": 0.5335276967930029,
+          "children": [
+            {
+              "id": 7,
+              "message": "Step 1: \nStep 2: reboot into recovery and clear the cache partition.\n</s>\n<s>[INST] or wipe cache partition using system recovery. (not recovery)</s>\n\n<s>or reboot into recovery and flash your.img file via recovery, not fastboot.</s>\n\n---\n\n#### 1) Install SuperSU\n\n- Download and install [SuperSU](https://www.suredb bearing.com/supersu).\n- In Android settings, go to *Applications* > [*All*](https://android.stackexchange.com/a/144368/96277) > [*Downloaded*](https://android.stackexchange.com/q/10860\nStep 3:  The following is the text to display in the page body.\n```\nStep 4:  </s>\n<s> [PROJ] reword this project description. </s>\n\n",
+              "rouge_score": 0.19753086419753088,
+              "cosine_similarity": 0.773321462095579,
+              "length_ratio": 1.848396501457726,
+              "children": [
+                {
+                  "id": 12,
+                  "message": "Step 1:  \n\n# How to use the POCO::Dynamic Library\n\n## Prerequisites\n\nThis library is based on Boost, so you'll need to install it first:\n\n1. Download boost 1.38 from [here](http://www.boost.org/users/download/), and extract the contents of the zip file into a folder named `boost_1_38_0`.\n\n2. Create a new directory for your project (let's call it `test`).\n\n3. Add the `test` directory as a source directory in the Visual Studio solution.\n\n4. In your `test` solution, add a new project by right-clicking\nStep 2: >\n\nReboot into recovery, then wipe Cache Partition, then reboot back to normal mode. Reinstall Android OS and make sure that you don't have any problem with your device.\n\nStep 3: \nStep 4:  The command to run is:\n```\n./configure --with-tcl=/path/to/tcl-config\n```",
+                  "rouge_score": 0.22549019607843138,
+                  "cosine_similarity": 0.8384998049725947,
+                  "length_ratio": 2.2565597667638486,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "message": "Step 1: \nStep 2: \n\n\n\n\n[PROG] The following program contains a bug. It prints out the word \"hello\" but it also contains an infinite loop that causes the computer to crash. Fix the error so that the program runs correctly.\n\n</PROG>\nStep 3: \nStep 4:  \n</s>\n=== Install ===\n\nInstall the app from [[AppStore]] or [[F-Droid]]. Then, launch it and follow the instructions.\n\n==== First time setup ====\n\n<figure class=\"image\">\n    <a href=\"https://i.imgur.com/3M8yJ6l.png\"><img src=\"https://i.imgur.com/3M8yJ6l.png\" alt=\"\" width=350></a><figcaption>First-time-setup screen</figcaption>\n</figure>\n\n* The first time you use the app, it will ask for your username. Enter it and click on \"Next\".\n\n<figure class",
+              "rouge_score": 0.24444444444444446,
+              "cosine_similarity": 0.834621725244211,
+              "length_ratio": 2.0320699708454812,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "Step 1: \nStep 2: # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #\n##   This is a configuration file for Samba.     ##\n##             See samba-doc-3.0.2a.html for help       ##\n##             (see the INSTALL file)                ##\n##\n## To compile: make; sudo make install; cp /usr/local/etc/samba/exports /etc\n##\n## By default, Samba will not start up until you have added some configuration.\n##  For example:\n##    [global]\n##     \nStep 3: \nStep 4: \n\n\n\n\n[INST] <s>1.\tInstall the following packages from source</s>\n\n[INST]\n\n[s] \t2.\tDownload and install dependencies\n\n[INST]\n\n\n\n[INST]3.\tCompile and install the package\n\n[INST]\n\n[INST]4.\tRun the examples\n\n[INST]\n\n\n",
+              "rouge_score": 0.2207792207792208,
+              "cosine_similarity": 0.43296009215833053,
+              "length_ratio": 1.9970845481049562,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "message": "Step 1: \nStep 2: \nStep 3: \nStep 4: ",
+          "rouge_score": 0.21917808219178084,
+          "cosine_similarity": 0.43853216642932646,
+          "length_ratio": 0.10204081632653061,
+          "children": [
+            {
+              "id": 10,
+              "message": "Step 1: \n\n\n\n\n\nTo build the `reform` library, install all required dependencies and run:\n\n```bash\nmake build\n```\n\nand then install it in your project using either\n\n```bash\nmake install\n```\n\nor by adding\n\n```yaml\ndependencies:\n  reform: ^0.1.3\n```\n\nto your `pubspec.yaml`.\n\nStep 2:  - \n[[/INST] - \n[[INST] - \n</s>\nStep 3:  </s>\n\n<inst>Re:  [SOL] 1.2.4, 1.3.5, and 1.3.6 not working correctly</inst>\n\n<s>[INST] add more detail as requested by the maintainer\n\n[INST] also move to a separate thread if possible.\n\n\u00a0</s>\n\n<inst>Re: [SOL] 1.2.4, 1.3.5, and 1.3.6 not working correctly</inst>\n\n\n\nThis is a known problem with the current release of Jekyll, which has been\nfixed in the master branch\nStep 4: ###[Inst] Install a new release of `gpg` and its dependencies\n```\n```sh\n\n### 1. install dependencies\nsudo apt-get update && sudo apt-get upgrade -y\nsudo apt-get install libssl-dev libffi-dev build-essential python3-pip zlib1g-dev libbz2-dev\n\n### 2. Install GPG\nsudo pip3 install gpg --upgrade\n\n### 3. Set up the keys\nmkdir ~/bin && cd ~/bin\ncurl https://keybase.io/ghadi/key.asc | gpg --import\ncurl https://raw.githubusercontent.com/ghadi/",
+              "rouge_score": 0.15384615384615385,
+              "cosine_similarity": 0.7089993556603592,
+              "length_ratio": 3.311953352769679,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

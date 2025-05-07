@@ -1,0 +1,8 @@
+{
+  "num_tasks": 5,
+  "max_agents": 12,
+  "model_name": "meta-llama/Llama-3.2-3B",
+  "parallel_tasks": false,
+  "parallel_strategies": false,
+  "total_time_seconds": 3554.9040899276733
+}

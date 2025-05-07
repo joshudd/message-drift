@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Start caulking one end of the crack. Start at one end of the crack. Point the tube [nid2] at it, letting the longer side [nid3] of the tip trail. Squeeze the trigger firmly and with a medium amount [nid1] of pressure. You need enough caulk to cover [nid0] the crack without excess cleaning.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999863849263,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+      "rouge_score": 0.43010752688172044,
+      "cosine_similarity": 0.6452909494397409,
+      "length_ratio": 0.33940774487471526,
+      "children": [
+        {
+          "id": 5,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+          "rouge_score": 0.43010752688172044,
+          "cosine_similarity": 0.6452909494397409,
+          "length_ratio": 0.33940774487471526,
+          "children": [
+            {
+              "id": 10,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+              "rouge_score": 0.43010752688172044,
+              "cosine_similarity": 0.6452909494397409,
+              "length_ratio": 0.33940774487471526,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": " \n\n<div class=\"row\">\n\n<div class=\"col-md-8 col-sm-8\">\n<ol>\n<li> <a href=\"#[nidX]\" class=\"anchor\" id=\"[nidX]\">1. Briefly describe the research problem and why it is important.</a></li>\n\n</ol>\n\n\n</div>\n<div class=\"col-md-4 col-sm-4\"></div>\n</div>\n\n\n\n<hr>\n\n\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+              "rouge_score": 0.3453237410071942,
+              "cosine_similarity": 0.7692735461540896,
+              "length_ratio": 0.9248291571753986,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+          "rouge_score": 0.43010752688172044,
+          "cosine_similarity": 0.6452909494397409,
+          "length_ratio": 0.33940774487471526,
+          "children": [
+            {
+              "id": 12,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+              "rouge_score": 0.43010752688172044,
+              "cosine_similarity": 0.6452909494397409,
+              "length_ratio": 0.33940774487471526,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+      "rouge_score": 0.43010752688172044,
+      "cosine_similarity": 0.6452909494397409,
+      "length_ratio": 0.33940774487471526,
+      "children": [
+        {
+          "id": 7,
+          "message": "\n\n\n\n\n\nA few months ago, I had my first experience of writing code for a game. It was a simple text-based adventure game that required me to write code to simulate the behavior of characters in the game world. After much trial and error, I managed to complete the task and get my program to run. However, when I looked at the finished product, it didn't seem very impressive or exciting.\n\nThis led me to wonder: why do we need code in games? What is its purpose and how can we use it effectively?\n\nIn this essay, I will explore these questions by looking at some examples of games that incorporate code into their\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+          "rouge_score": 0.32692307692307687,
+          "cosine_similarity": 0.7947253333933281,
+          "length_ratio": 1.7334851936218678,
+          "children": []
+        },
+        {
+          "id": 8,
+          "message": ">\n\n<s>[INST] paraphrase this instruction in your own words, but keep all [nidY] tags exactly as they appear:\n\n[INST] </s>\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+          "rouge_score": 0.35398230088495575,
+          "cosine_similarity": 0.8272784277110189,
+          "length_ratio": 0.6150341685649203,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+      "rouge_score": 0.43010752688172044,
+      "cosine_similarity": 0.6452909494397409,
+      "length_ratio": 0.33940774487471526,
+      "children": [
+        {
+          "id": 9,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'cover'\n[nid1] marks 'amount'\n[nid2] marks 'tube'\n[nid3] marks 'side'\n[nid4] marks 'cleaning.'",
+          "rouge_score": 0.43010752688172044,
+          "cosine_similarity": 0.6452909494397409,
+          "length_ratio": 0.33940774487471526,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

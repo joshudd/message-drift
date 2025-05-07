@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Work on your voice. Try to be very musical and sing everyday. Be diligent about practicing and never miss a day of singing. If you are serious about becoming a good singer, you should consider voice lessons.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999992432247,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 5,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 10,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 11,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 7,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 12,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 8,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        },
+        {
+          "id": 9,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

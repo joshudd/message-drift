@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Work on your voice. Try to be very musical and sing [nid1] everyday. Be diligent [nid4] about [nid3] practicing and never miss a day of singing. If you are serious [nid0] about becoming a good singer, you should [nid2] consider voice lessons.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+      "rouge_score": 0.4878048780487805,
+      "cosine_similarity": 0.6495645364892854,
+      "length_ratio": 0.3842239185750636,
+      "children": [
+        {
+          "id": 3,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+          "rouge_score": 0.4878048780487805,
+          "cosine_similarity": 0.6495645364892854,
+          "length_ratio": 0.3842239185750636,
+          "children": [
+            {
+              "id": 5,
+              "message": "\n\n\n\n\n\n```python\n[INST] write a function called \"paraphrase\" that takes 2 lists of strings as input and returns the string that results from replacing every instance of \"A\" with \"B\" in the first list with \"C\" in the second list. If one of the inputs is empty, return an empty string. \n\n# Example:\n# Input: [\"A\", \"B\"], [\"C\"]\n# Output: \"BC\"\n# Explanation: The output should be \"C\" since there is only one occurrence of \"A\" in the first list.\n\n# Test cases:\ndef test():\n    assert paraphrase([\"\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+              "rouge_score": 0.3312883435582822,
+              "cosine_similarity": 0.7863616106522369,
+              "length_ratio": 1.6310432569974556,
+              "children": [
+                {
+                  "id": 10,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+                  "rouge_score": 0.4878048780487805,
+                  "cosine_similarity": 0.6495645364892854,
+                  "length_ratio": 0.3842239185750636,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": "\n\n\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+              "rouge_score": 0.4878048780487805,
+              "cosine_similarity": 0.6495645364892854,
+              "length_ratio": 0.3969465648854962,
+              "children": [
+                {
+                  "id": 11,
+                  "message": "\n\n\n\n\n\n\nThis is an example of using the [[#inst]] tag.\n\n== Example ==\n\n[[Image:Example.jpg]]\n\n<nowiki>'''Note''': The syntax for <code>[[#inst]]</code> requires a space before and after the brackets ''but not inside them''.</nowiki>\n\n* This is an example of using the [[#inst]] tag.\n* '''Note''': The syntax for <code>[[#inst]]</code> requires a space before and after the brackets ''but not inside them'.'''\n\n\n= References =\n\n{{reflist}}\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+                  "rouge_score": 0.3424657534246575,
+                  "cosine_similarity": 0.7574423046921376,
+                  "length_ratio": 1.4987277353689568,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "`\n\n### A. The `s` flag\n\nThe `s` flag is used to specify that the next argument is a string and not a number.\n\nFor example:\n\n```python\nprint(1 + 2) # prints 3\n```\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+          "rouge_score": 0.42857142857142855,
+          "cosine_similarity": 0.7801646011816797,
+          "length_ratio": 0.7964376590330788,
+          "children": [
+            {
+              "id": 7,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+              "rouge_score": 0.4878048780487805,
+              "cosine_similarity": 0.6495645364892854,
+              "length_ratio": 0.3842239185750636,
+              "children": [
+                {
+                  "id": 12,
+                  "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+                  "rouge_score": 0.4878048780487805,
+                  "cosine_similarity": 0.6495645364892854,
+                  "length_ratio": 0.3842239185750636,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+              "rouge_score": 0.4878048780487805,
+              "cosine_similarity": 0.6495645364892854,
+              "length_ratio": 0.3842239185750636,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'serious'\n[nid1] marks 'sing'\n[nid2] marks 'should'\n[nid3] marks 'about'\n[nid4] marks 'diligent'",
+              "rouge_score": 0.4878048780487805,
+              "cosine_similarity": 0.6495645364892854,
+              "length_ratio": 0.3842239185750636,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

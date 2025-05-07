@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Soak the parts in soapy water for 10 minutes [nid4] to get rid of residue and odor. Leave the basket [nid2] in the pan and fill it up with [nid3] enough hot water to cover all the dirty bits. Squeeze a few drops of dish detergent into the water and let the parts soak for 10 minutes or so. Rinse the parts out thoroughly and scrub any remaining residues off with a soft sponge. You can also [nid1] use a soft- bristled brush [nid0] to help loosen stuck- on food bits.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+      "rouge_score": 0.3053435114503817,
+      "cosine_similarity": 0.4754113753084077,
+      "length_ratio": 0.23941368078175895,
+      "children": [
+        {
+          "id": 5,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+          "rouge_score": 0.3053435114503817,
+          "cosine_similarity": 0.4754113753084077,
+          "length_ratio": 0.23941368078175895,
+          "children": [
+            {
+              "id": 10,
+              "message": " \n\n[STUDY] **Nimrod** (2002) \"The Effects of Music on the Ability to Remember a List of Words\", *Psychology of Music*, 30(1): 5-12. [DOI:10.1177/030573560203000101](http://dx.doi.org/10.1177/030573560203000101)\n\n**Summary:** The authors investigated whether or not background music could be used as an effective strategy for improving memory. Participants were asked to listen to either instrumental music or no music while reading a list of words. After reading the list, participants were\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+              "rouge_score": 0.34615384615384615,
+              "cosine_similarity": 0.7195817094573735,
+              "length_ratio": 1.0374592833876222,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": "\n\n\n\n\n## [PREF] Introduction\n\n\n\nThe [pref] (preference) is a feature of the [app] (application) that allows for customization of the user experience. Users can configure the app to their liking by selecting from a set of options provided by the developer. These options are stored and retrieved through the [id] (identifier). The identifier is used as a key to access and store preferences data.\n\n[ref] In this guide we will create an example app that has two preference items:\n\n1. A boolean preference item called \"dark_mode\"\n2. An integer preference item called \"theme_color\"\n\nThese preference items will\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+              "rouge_score": 0.34210526315789475,
+              "cosine_similarity": 0.6957268477764286,
+              "length_ratio": 1.224755700325733,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "\n\n\n\n\n\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+          "rouge_score": 0.3053435114503817,
+          "cosine_similarity": 0.4754113753084077,
+          "length_ratio": 0.252442996742671,
+          "children": [
+            {
+              "id": 12,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+              "rouge_score": 0.3053435114503817,
+              "cosine_similarity": 0.4754113753084077,
+              "length_ratio": 0.23941368078175895,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+      "rouge_score": 0.3053435114503817,
+      "cosine_similarity": 0.4754113753084077,
+      "length_ratio": 0.23941368078175895,
+      "children": [
+        {
+          "id": 7,
+          "message": "This is a test of the emergency broadcasting system. This is only a test.\n</s>\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+          "rouge_score": 0.32876712328767127,
+          "cosine_similarity": 0.6139019814842134,
+          "length_ratio": 0.36644951140065146,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+      "rouge_score": 0.3053435114503817,
+      "cosine_similarity": 0.4754113753084077,
+      "length_ratio": 0.23941368078175895,
+      "children": [
+        {
+          "id": 8,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+          "rouge_score": 0.3053435114503817,
+          "cosine_similarity": 0.4754113753084077,
+          "length_ratio": 0.23941368078175895,
+          "children": []
+        },
+        {
+          "id": 9,
+          "message": "\n\n\n\n\nThe following text was extracted from the original instruction. Please refer to it for proper usage of this function.\n\n### [Instruction]\n\n*Create a new document and use an image of the front cover of the book you are reading now on page one.*\n\n\n*Type the title of the book (in all caps) at the top of the first page.*\n\n*On the second page, write a paragraph summarizing the plot. Make sure that you include the main characters, their roles, and what happens to them.*\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'brush'\n[nid1] marks 'also'\n[nid2] marks 'basket'\n[nid3] marks 'with'\n[nid4] marks 'minutes'",
+          "rouge_score": 0.40186915887850466,
+          "cosine_similarity": 0.7643876522104516,
+          "length_ratio": 1.009771986970684,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Soak the parts in soapy water for 10 minutes to get rid of residue and odor. Leave the basket in the pan and fill it up with enough hot water to cover all the dirty bits. Squeeze a few drops of dish detergent into the water and let the parts soak for 10 minutes or so. Rinse the parts out thoroughly and scrub any remaining residues off with a soft sponge. You can also use a soft- bristled brush to help loosen stuck- on food bits. [CHECKSUM: parts-soapy-water-minutes-residue]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": ">\n\nThe instruction says, \"soak the parts in soapy water\", yet the image shows a pan full of clean water (I assume from the previous step). Is this a typo?\n\nEdit: I've added [INST] and [/INST] tags around the instructions.\n\n\u2022 @Mast Not sure what you mean by that? It looks like he wants to leave the parts soaking while he fills the pan with more warm water. Mar 5 '18 at 19:13\n\u2022 @Mast But if so, why not put the whole bowl of soap water in the sink?\n\u2013\u00a0user568458\nMar 6 [CHECKSUM: parts-soapy-water-minutes-residue]",
+      "rouge_score": 0.3578947368421052,
+      "cosine_similarity": 0.8659216540979133,
+      "length_ratio": 1.0753138075313808,
+      "children": [
+        {
+          "id": 3,
+          "message": " The picture appears to show a separate container being filled with hot water rather than a pan already containing water.\n\nIf this is intentional, it would be useful to explain how long the parts should remain immersed in the hot water before rinsing. At the very least, some indication of time should be included.\n\n\u2022 @DarthVader thanks for adding the [INST] tag!\n\u2013\u00a0user568458\nMar 7 '18 at 2:07 [CHECKSUM: parts-soapy-water-minutes-residue]",
+          "rouge_score": 0.3132530120481928,
+          "cosine_similarity": 0.8137465154943251,
+          "length_ratio": 0.9205020920502092,
+          "children": [
+            {
+              "id": 4,
+              "message": " The part that is missing here is to let them soak in the water for about 5 minutes (long enough so that you can see bubbles start forming on the surface). You want to make sure they are fully wet, and you also need to give them time to dissolve any chemical residue from the factory or anything else that may have been there.\n\nIt's not just about submerging them under water, although I do think that's a big part of it. It's also about letting the water get into every nook and cranny where dust, debris or other stuff might hide out.\n\nYou will find that after soaking, your brush [CHECKSUM: parts-soapy-water-minutes-residue]",
+              "rouge_score": 0.3773584905660377,
+              "cosine_similarity": 0.8424961740983244,
+              "length_ratio": 1.3138075313807531,
+              "children": [
+                {
+                  "id": 7,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                },
+                {
+                  "id": 8,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                },
+                {
+                  "id": 9,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "message": " It's not clear whether the picture shows a separate container or if the water is contained within the pot. I think that the latter interpretation is more likely since there doesn't appear to be any extra vessel for holding the water.\n\nIf you are using a separate container, then it is best to include a brief description of what is going on in the question so that readers know how to understand the image. For example, \"I used a container (rather than the original cooking pot) because...\" [CHECKSUM: parts-soapy-water-minutes-residue]",
+              "rouge_score": 0.33155080213903737,
+              "cosine_similarity": 0.7611391657790684,
+              "length_ratio": 1.1234309623430963,
+              "children": [
+                {
+                  "id": 10,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                },
+                {
+                  "id": 11,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": " The picture does not give any information regarding the immersion time or if the container was preheated (hot) before adding the tea bags and the water. In either case, you could consider using a metal container because it will retain its temperature much better than plastic. Also, when using a metal container, make sure that the bottom has holes so that the heat from the hot water can escape faster.\n\n\u2022 I am not familiar with English, but I think the sentence \"When using a metal container\" should be \"When using a metal container\", without \"a\".\n\u2013\u00a0Ari\nFeb 22 at 19:36\n\u2022 Thank [CHECKSUM: parts-soapy-water-minutes-residue]",
+              "rouge_score": 0.29000000000000004,
+              "cosine_similarity": 0.8229711821642641,
+              "length_ratio": 1.3096234309623431,
+              "children": [
+                {
+                  "id": 12,
+                  "message": " [CHECKSUM: parts-soapy-water-minutes-residue]",
+                  "rouge_score": 0.12244897959183672,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.09623430962343096,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

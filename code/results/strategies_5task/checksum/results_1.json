@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Cut the wires. Cut one plastic connector( plug) off of each wire, you should used dykes or wire cutters, but if you don \u2019 t have those a knife or scissors will do. It is important that you cut opposite sides off otherwise the you stand a 50/50 chance of screwing up step three. If you look at the connectors with the hook down you should see four wires in this order Black, Red, Green, Yellow from left to right and the other connector will have them in reverse order. Cut the connector with the wires in BRGY off the first wire then the connector with the YGRB off the second wire. [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999968886054,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+      "rouge_score": 0.0967741935483871,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.07911392405063292,
+      "children": [
+        {
+          "id": 3,
+          "message": " </s>\n [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+          "rouge_score": 0.09600000000000002,
+          "cosine_similarity": 0.041617413563701744,
+          "length_ratio": 0.08860759493670886,
+          "children": [
+            {
+              "id": 4,
+              "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+              "rouge_score": 0.0967741935483871,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.07911392405063292,
+              "children": [
+                {
+                  "id": 7,
+                  "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.0967741935483871,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.07911392405063292,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+              "rouge_score": 0.0967741935483871,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.07911392405063292,
+              "children": [
+                {
+                  "id": 8,
+                  "message": "\n\n\n\n\n\nThis is the documentation for the [http://www.mediawiki.org/wiki/Extension:PageToc PageToc Extension]. It describes how to use it and some of its features.\n\n\n\nAs of 2013-07-21, PageToc has been merged into the Mediawiki core, so you can install it as a MediaWiki extension without having to download anything from an external source. For more information see [http://www.mediawiki.org/wiki/Manual:$wgExtensionCredits this section in the mediawiki manual], or search for \"page toc\" on mediawiki.org.\n\nIf you are [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.23923444976076555,
+                  "cosine_similarity": 0.8190702490497109,
+                  "length_ratio": 0.8955696202531646,
+                  "children": []
+                },
+                {
+                  "id": 9,
+                  "message": " \n\n\n\n\n\n\n\n## Introduction to the Pseudo-Genetic Algorithm\n\n\nThe pseudo-genetic algorithm (PGA) is an implementation of a genetic algorithm that uses a single population, and therefore does not require multiple populations. In addition, it implements a mutation operator that mimics the mutation process in DNA. The PGA is similar to the GA as it follows a generational approach; however, instead of starting with a new population, it takes its next generation from the current one by making random mutations.\n\nIn order to achieve better results than what you might expect when applying a normal GA, we can make use of some simple enhancements:\n\n*   **B [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.25550660792951546,
+                  "cosine_similarity": 0.7653058543383087,
+                  "length_ratio": 1.1091772151898733,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+              "rouge_score": 0.0967741935483871,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.07911392405063292,
+              "children": [
+                {
+                  "id": 10,
+                  "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.0967741935483871,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.07911392405063292,
+                  "children": []
+                },
+                {
+                  "id": 11,
+                  "message": " [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.0967741935483871,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.07911392405063292,
+                  "children": []
+                },
+                {
+                  "id": 12,
+                  "message": ">\n\n## Installation\n\nThis is a Ruby script. To install, download the latest version from [https://github.com/janl/split](https://github.com/janl/split) and run:\n\n```sh\n$ gem install split.rb\n```\n\nIf you want to use `split` in your own ruby scripts, just require it with:\n```ruby\nrequire'split'\n```\n [CHECKSUM: wires.-plastic-connector(-plug)-wire,]",
+                  "rouge_score": 0.2093023255813954,
+                  "cosine_similarity": 0.7469686307372821,
+                  "length_ratio": 0.5490506329113924,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

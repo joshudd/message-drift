@@ -1,0 +1,170 @@
+{
+  "id": 1,
+  "message": "Step 1: Determine which eyebrow is more dominant\nStep 2: Before beginning your training, you will want to figure out which eyebrow will be most easily trained\nStep 3: Typically, this will be your dominant eyebrow\nStep 4: Stand in front of a mirror, and try to lift your right eyebrow\nStep 5: Then try to lift only your left eyebrow.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1: >\n\nYou will need to create a copy of the `eyebrow.py` file in your project folder. You can simply copy and paste it from the examples section.\n\nIn the copy, replace the `img_path` with the path to an image that has two eyebrows drawn on it, for example, `img_path = 'path/to/image.jpg'`\n\nAlso, change the `output_path` to be the directory where you want to save the results (for example: `output_path = 'path/to/output/'`)\nStep 2: >\n\n<style>\n  #header {\n    margin-left: 10px;\n    background-color: lightblue;\n    padding: 1px 2px;\n  }\n\n  h1 {\n    font-size: xx-large;\n    color: white;\n    text-align: center;\n    border-bottom: solid black 3px;\n  }\n</style>\n<h1 id=\"header\"> Eyebrow Training </h1>\n\n\n<details open>\n<summary> Before starting training, there are a few things you should know:\n  <ol>\n  <li>You may only train one eyebrow at a time.</li>\n  <li>Your\nStep 3:  \n\nA very important part of the process is to take care with eyebrows. This is especially so if you have a lot of hair on them. There are many ways to shape and trim eyebrows but for our purposes, we\u2019ll look at just one method \u2013 tweezing. \n\nIf you don\u2019t already know how to tweeze properly, I suggest you read my article on How To Tweeze Eyebrows Before Starting this tutorial.\n\nIf you want an even faster way to get rid of unwanted hairs, try using some wax instead! Wax can be found in most beauty supply stores and it\u2019s actually quite easy to use. Here's\nStep 4: >\n\n# [INST] Step 1: Stand in front of a mirror, and try to lift your right eyebrow <s>[INST] reword this instruction keeping all key details:</s> Try to move the muscles in your face, and see if you can raise both sides of your forehead. This exercise is called \"eyebrow raising\". Now look at yourself in the mirror. See how far up your eyebrows are raised? Can you make them go higher?\n\n<details>\n<summary>Answer</summary>\n\nIf it's difficult to do this, don't worry. You will learn how to raise your eyebrows as part of this\nStep 5:  \n\nThis is a simple example of how you can use the \"Inst\" system. It's pretty easy, just keep the following points in mind:\n\n - Your instructions should be short and precise.\n - You shouldn't use any HTML tags or formatting.\n - Don't ask questions, instead show what to do.\n\nIf you have questions about using \"Inst\", please contact me on IRC (#cogz on Freenode).",
+      "rouge_score": 0.19126819126819125,
+      "cosine_similarity": 0.8996890467409556,
+      "length_ratio": 7.054216867469879,
+      "children": [
+        {
+          "id": 3,
+          "message": "Step 1: \nStep 2: \nStep 3: \n\n\n\n\n\n<--[[BR]]\n\n\n\nIn [[Morphology]], we use the term *stem* to refer to the part of a word that is used as an entry in the dictionary. A stem is usually determined by removing affixes from a word, but this is not always possible.\n\n\n\nThe following steps are taken to determine a stem:\n\n1.  Check if there is a suffix (a bound morpheme) attached to the beginning of the word.\n\n    If so, remove it. In some cases, however, it can be useful to retain a suffix for other purposes such as generating plural forms or irregular verbs. For example,\nStep 4:  <s>[INST] reword this instruction keeping all key details: </s> <s>[INST] reword this instruction keeping all key details:</s>\nStep 5:  In order to install a new kernel and initrd, you need to run the following command:\n\n- <s>sudo apt-get update</s>\n- <s>sudo apt-get dist-upgrade</s>\n- <s>sudo apt-get install linux-image-generic-hwe-16.04 linux-image-extra-virtual linux-image-extra-4.4.0-34-generic hwe-desktop-setup</s>\n\n- <s>sudo apt-get remove linux-image-extra-4.4.0-33-generic</s>\n\n- <s>sudo dpkg --configure -a</s>\n- <s>sudo apt-get",
+          "rouge_score": 0.17164179104477612,
+          "cosine_similarity": 0.8236757194734168,
+          "length_ratio": 3.3674698795180724,
+          "children": [
+            {
+              "id": 6,
+              "message": "Step 1: \nStep 2: \n\n\n\n\n\n> \n>> \n>>> \n>>>>  > I think we should use the term \"installing\" instead of \"setting up\". This is much more clear.\n>>>>> \n>>>>> \n>>>>>> \n>>>>>>> \n>>>>>>>> On Jul 18, 2007, at 3:50 PM, Mark D. Baushke wrote:\n>>>>>>>>> \n>>>>>>>>>> \n>>>>>>>>>>> Hi list,\n>>>>>>>>>>> \n>>>>>>>>>>> We've been discussing some terminology issues around installing and setting up on the design team. We are leaning towards using the terms 'install' and'set up' when describing the process of getting the system working for an\nStep 3:  - replace with instructions to the user, or some other type of content.\n\n> [INST] reword this instruction keeping all key details:\n\n\n\n## Summary\nThis article is about [[Some related concept]].\n\n### Overview\nIt explains [[Some related concept]] in a general way. It gives the basic idea and how it relates to what we want to do.\n\n#### Background\nThis section describes relevant background material.\n\n#### Purpose\nThis section describes the overall purpose of [[Some related concept]]. \n\n##### Goals\nWe provide an overview of the goals that we have for [[Some related concept]]:\n\n*...\n\n#### Scope\nThis section describes the scope\nStep 4: \nStep 5:  1. Download the latest kernel package from [url=http://www.kernel.org/]kernel.org[/url].\n\n2. Edit /etc/lilo.conf file with your favorite editor.\n\n3. Add a new line into the 'image' section:\n```\n   image=/boot/vmlinuz-$(uname -r)\n```\n4. Add a new line into the 'append' section:\n```\n   append=\"root=LABEL=ROOT rootflags=squashfs ro rootdelay=5\"\n\n    OR\n   append=\"initrd=/boot/initrd-$(uname -r)\"\n\n5. Save the lilo.conf file.\n",
+              "rouge_score": 0.1456953642384106,
+              "cosine_similarity": 0.7589624385097951,
+              "length_ratio": 4.828313253012048,
+              "children": [
+                {
+                  "id": 12,
+                  "message": "Step 1: \nStep 2: reword this instruction keeping all key details.\n\n[[/INST]]\n\nStep 3: \nStep 4: \n\n\n\n\n\n[[!meta title=\"RPM Installation Guide\"]]\n[[!meta description=\"Install RPMs from a remote server or local directory.\"]]\n\n\n\n## Introduction\n\nRPM is the standard package format for Red Hat Enterprise Linux. You can install and manage RPM packages using the command line, but you cannot easily get the packages from other locations (such as your own computer).\n\nThis guide describes how to install packages in your local system from an HTTP/S server or local directory.\n\n\n## Prerequisites\n\n\nYou will need an installed RPM.\n\nIf you are on Windows you can use [YUMI](http://www.yumiforwindows.org/)\nStep 5: ",
+                  "rouge_score": 0.24418604651162792,
+                  "cosine_similarity": 0.7995515273838403,
+                  "length_ratio": 2.1144578313253013,
+                  "children": []
+                },
+                {
+                  "id": 13,
+                  "message": "Step 1:  1. In the \"Edit Profile\" window, click on the \"Advanced Settings\" tab.\n\n2. Under the heading \"Security\", select the checkbox labeled \"Require a password for my account\". Click on the button \"Set Password\".\n\n3. A new window opens where you can set your own password and confirm it. After that, just close the window.\n\n4. Once you have done this, return to the main window of the \"Edit Profile\" dialog, click on the \"Privacy\" tab, and enter your email address in the field \"Email Address\". Note: This will be displayed publicly, so make sure you use an\nStep 2:  <s>[[INSTALL]]</s>\n\nIn order to install the application, you will need to have an account on [https://sourceforge.net/projects/autotrace/ SourceForge]. The installation process is as follows:\n\n<ol>\n<li><p>Create an account if you do not already have one.</p></li>\n<li><p>Download the tarball from <a href=\"http://sourceforge.net/project/showfiles.php?group_id=115450\">SourceForge</a>.</p></li>\n<li><p>Unpack it in a directory of your choice.</p></li>\n<li><p>Run\nStep 3: \nStep 4:  If you have a question about your order or wish to contact us, please do so by sending an e-mail to the following address: helpdesk@lithium-technologies.com.\n\nPlease note that Lithium Technologies is committed to protecting your privacy. Your personal information will be used only for processing your orders and for customer service purposes. We will never rent or sell our customers' personally identifiable information to any third parties.</s>\nStep 5: >\n\n<h2>Build Kernel on Debian Linux</h2>\n<p>This guide is for those who would like to build their own kernel from source and load it into the firmware (the firmware being the flash chip on the board). This procedure can be used as a basis for any other distributions, including Ubuntu.</p>\n\n<ol><li>Get the 2.4.x kernel source code <a href=\"http://www.kernel.org/\">from the kernel.org site</a>.</li></ol>\n<blockquote><ul><li>Get the <b>gziped tarball</b>. If you don't have gzip installed type",
+                  "rouge_score": 0.14492753623188404,
+                  "cosine_similarity": 0.8354133349634126,
+                  "length_ratio": 6.018072289156627,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "message": "Step 1:  </s>\n\n\nThe following is a list of the most common errors that users may encounter while using Coot, and possible solutions to these problems. This document will be updated as more problems are discovered.\n\n\n\n=== The program crashed ===\n\n* If you are running on a Mac OS X with an old version of X11 (version 1.0.7), please install XQuartz from <http://xquartz.macosforge.org/>\n\n\n* There was some problem in loading the library libXm.so.4: \n\n   * Make sure that your system is up-to-date. For instance, if you are using Fedora Core\nStep 2:  <s>INSTALLATION</s>\n\nThis file contains the installation of the package. This is done in 2 steps. The first step will install the program and some dependencies. The second step will copy some files from the sources to their final destination.\n\n=== First Step ===\nThe first step will install the software, its dependencies, and create a symbolic link to the executable binary.\nTo do that we need to run:\n```shell\ncd $(mktemp -d)\nsudo apt-get update\nsudo apt-get install -y python3 python3-dev python3-pip git \\\n                       libcairo2-dev libglib2.0\nStep 3:  \n## What is [i]rebase[/i]\n\n  - It's a tool to fix up your [b]local[/b] copy of the source tree for a distribution that was created with an older version of the sources.  For example, you could use it after upgrading from CVS or Subversion to Git.\n\n## Why do I need to rebase\n\n   - In most cases, yes.  The best way to keep your local Git branch synchronized with upstream is by re-using all the commits that were made since you pulled in the changes.\n   - If you've branched off an old release (e.g.\nStep 4: \nStep 5: ",
+              "rouge_score": 0.1657142857142857,
+              "cosine_similarity": 0.8282296485153199,
+              "length_ratio": 4.918674698795181,
+              "children": [
+                {
+                  "id": 14,
+                  "message": "Step 1: \nStep 2: \nStep 3: \nStep 4:  The [INST] reword this instruction keeping all key details:[/INST] (this is the [INST] inst text here, it is a code that will be replaced by the translator with the correct string. It should always contain the text in between \"[]\" - if you are using multiple translations and different instructions, don't forget to add them here as well)\nStep 5:  To see a list of all your installed modules, use the following command:\n\n[COMMAND] 2.3 - [INST]\n\n<inst> To uninstall a module from your site, you can use the following command:\n<inst>\n\n[synopsis] In addition to installing modules in the web directory and\nsourcing them with the <inst> command, you can also install them\nin your control panel, where they will be automatically sourced.\nThe process is very similar to that for web-based installations,\nbut there are some important differences. The main difference is\nthat you must manually specify the path to your data directory (the\n",
+                  "rouge_score": 0.247787610619469,
+                  "cosine_similarity": 0.8377681858572299,
+                  "length_ratio": 2.9126506024096384,
+                  "children": []
+                },
+                {
+                  "id": 15,
+                  "message": "Step 1: \nStep 2: \nStep 3: \nStep 4: \nStep 5: \n\n\n\n\n```",
+                  "rouge_score": 0.28169014084507044,
+                  "cosine_similarity": 0.5247525247885454,
+                  "length_ratio": 0.1566265060240964,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "Step 1: \nStep 2: \nStep 3:  </s>[[#inst:Create a new branch|Create a new branch]] and then [[#inst:Add your files to the branch|add your changes to the branch]]. Once you have added all of your changes, make a commit to the branch. Finally, use [[#inst:Create a pull request|Create a pull request]] to submit the branch for review.\n\n=== What is a Pull Request? ===\nA '''pull request''' is a way of submitting a change to an existing project's codebase. To create a pull request on GitHub, first you need to create a new branch for your work. Then you can\nStep 4: \nStep 5:  <s>[[#Mandatory|Make the file mandatory]]: set a flag on the file indicating that it is mandatory to be present in order for the install to succeed.</s>\n\n<s>[INST] This is often used as part of an \"all-or-nothing\" installation mechanism.  If any mandatory files are missing, the entire install will fail.  However if they're not needed by other parts of the install, there is no need to check for them in non-mandatory installs (in which case they can just be ignored).</s>\n",
+          "rouge_score": 0.2265625,
+          "cosine_similarity": 0.8502634873339018,
+          "length_ratio": 3.1506024096385543,
+          "children": [
+            {
+              "id": 8,
+              "message": "Step 1:  \n<s>[INST] It is recommended to use the [i]--without-x11-ssh-agent[/i] option, because if you are using a different ssh agent than x11-ssh-agent or have no ssh agent at all, then the connection will fail. If you already have an ssh agent and it works with x11 forwarding, you can skip that part of the command.\n\nThe reason for that is that in the old days there were some problems getting the SSH key working (see below) but those are fixed now.\nIt should also be noted that the password is not transmitted on the wire as plain text but is encrypted\nStep 2:  \n\n\n\n\n\n> [INST] I'm not sure if you want to mention that the `m` is a modifier\n> key.\n\nI think so, it's one of the most important details for users with big hands. \nThe m key is also on the left hand side of the keyboard which is better when holding a mouse.\n\nStep 3: \nStep 4: \nStep 5: ",
+              "rouge_score": 0.21645021645021645,
+              "cosine_similarity": 0.8333561121711092,
+              "length_ratio": 2.569277108433735,
+              "children": [
+                {
+                  "id": 16,
+                  "message": "Step 1: reword this instruction keeping all key details:Create a folder on your computer called \"MyProject\" and place the following files in it:\n- MyProject.html\n- MyProject.js\n\n\n\n- The HTML file is the starting point of the project. It contains references to the JavaScript file (which will be created next) as well as some basic content to test our application.\n\n\n\n- The JavaScript file contains the code that actually implements the functionality of the project, such as creating and manipulating DOM elements. It also contains any necessary logic for handling user input and displaying output.\n\nTo use this example, you can simply open the index.html file in your\nStep 2: \n\n\n\n\n\n## Install\n\n### From Source\n\nClone the repository:\n\n```sh\ngit clone https://github.com/1n1/inst.git\ncd inst\n```\n\nInstall the dependencies:\n\n```sh\npython -m pip install --upgrade pip\npip install -r requirements.txt\n```\n\nCopy `config.json` to your project root folder. The template config file is found in `templates/config.json`. You can find a list of possible configuration values [here](#configuration).\n\nThen, run the command line utility like so:\n\n```sh\npython -m inst\n```\n\nStep 3:  To begin the process of creating a new server, we will start by creating the VMDK file that will contain our virtual disk. This is a Virtual Machine Disk (VMDK) File and should be used to store your data inside the virtual environment.\n\n**Note:** The size of the virtual disk can be any size. We recommend choosing something small at first as you will need to know how much space is required before starting the installation. However, it's also possible to increase the amount of memory later on if needed.\n\n1. Go to your [Storage Account](https://console.developers.google.com/storage/overview).\n\n2\nStep 4:  2.0: Add \"Hive\" and \"Network\" support\n\n=== Summary ===\nThis adds the Hive as a supported storage provider for the blockchain.\nIt also introduces new RPC calls to interact with the network.\n\n=== API changes ===\n- New RPC calls:\n\t- `eth_getCompilers`\n\t- `eth_compileSolidity`\n\t- `eth_compileSource`\n\t- `eth_compileLLL`\n\t- `eth_getBlockTransactionCountByHash`\n\t- `eth_getBlockTransactionCountByNumber`\n\n- New events:\n\t- `newFilterAdded` (for filters added by the compiler)\n\n=== RPC\nStep 5:  #!/bin/sh\n\n# This script is run by the build system\n# at the end of each compilation pass.\n#\n# It builds the \"default\" version of the code,\n# which should be built on most platforms.\n\n# $Id: configure.sh,v 1.2 1997/08/10 03:23:11 ralf Exp $\n\nCONFIGURE_TARGET=\"config.h\"\nTARGETS=`echo config.h`\n\nif test \"$OS\" = \"IRIX\"; then\n    CONFIGURE_TARGET=\"$CONFIGURE_TARGET.i386\"\nfi\n\ncase \"$ARCH\" in\n  *-*-sco3.2v",
+                  "rouge_score": 0.14078674948240164,
+                  "cosine_similarity": 0.7769662969215979,
+                  "length_ratio": 8.039156626506024,
+                  "children": []
+                },
+                {
+                  "id": 17,
+                  "message": "Step 1:  </s>\n\n# Repeated use of a single command\n\nIf you want to repeat the same command over and over, you can do so with\nthe *repeat* macro:\n\n<s>....</s>\n[s]\n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n..\nStep 2: `\n\n  - `This is an example of a comment, to demonstrate how they work. Comments are only used by the developers and not displayed in the app, so you can use them to communicate with others.`\n  \n- This line will be printed out as part of the output.\n\nStep 3:  #. Install the driver\n\n1. [INST] Go to [https://www.cooler-master.com/us/en/support/driver.html](https://www.cooler-master.com/us/en/support/driver.html) and download the latest version of CM Storm QuickFire TK driver.\n2. [INST] Run the downloaded file, follow the on-screen instructions to install it.\n\n## Troubleshooting\n\n[FAQ] Does my keyboard support macros?\n\n[FAQ] Does my keyboard have a dedicated media control button?\n\nStep 4: >\n\n[INTRO]\n\nThis is a simple and lightweight implementation of the [INTL][I]Distributed Hash Table (DHT)[/I] that uses\nthe 6-to-4 address mapping to map IP addresses into a numeric range. The data stored in the DHT are\nrepresented by keys and values, which can be strings or integers. As it is not guaranteed that every\nnode will be able to store all the data in the system, nodes may fail to respond or even go offline for\nlonger periods of time.\n\n[STEPS]\n\n1. Download the source code.\n2. Compile the binary using\nStep 5:  </s>\n<s>[INST] This is the only way to play. You'll be asked for your password when you try to log in.</s>\n<s>[INST] Once you have installed, start it up and click on \"Add User\" to create an account. The username should be a unique name such as \"myUsername\".</s>\n\n<inst>When you get this prompt:</inst><br /> <img src=\"/images/000/000/026/original/Dark_Force_Logo.png?1359464197\" /><br />\n<inst>click \"OK\"</inst>\n\n\n",
+                  "rouge_score": 0.15503875968992245,
+                  "cosine_similarity": 0.8287851795982877,
+                  "length_ratio": 5.930722891566265,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "message": "Step 1: \nStep 2:  The following instructions will enable you to create a new site with the\n`default` theme, activate it and configure it. You can skip these steps if you\nalready have an existing WordPress installation that you want to use as the\nnew site.\n\nThe default theme is designed for people who are just getting started with\nWordPress, so there are lots of useful examples and tutorials built into the\ntheme. It\u2019s also perfect for testing out changes before rolling them out to\nyour live site. If you\u2019re starting a brand new project from scratch, we\nrecommend using the *Twenty Fifteen* theme instead.\n\n\n\n## Create a New Site\nStep 3: \nStep 4: >\n\n<s>[INST]\nWhen running the game, do not use [screenshot] and [img] tags in your messages.\nThey are intended for posting images on the forum only.\n\n[s]Messages containing these tags will be removed immediately.[/s]\n\nDo not write in capslock. This is considered shouting.\n[/INST]</s>\nStep 5: ",
+              "rouge_score": 0.2577777777777778,
+              "cosine_similarity": 0.8345698924426105,
+              "length_ratio": 2.8403614457831323,
+              "children": [
+                {
+                  "id": 18,
+                  "message": "Step 1: \nStep 2: >\n\n[s][REVIEW] I think it would be better to add an \"optional\" section here\nto include that if you want to use the same theme, just copy the theme folder.\nThat way we can remove the link in [INST], because there is no need to\ninstall the theme again.\n\n[/REVIEW][/s]\n\nStep 3: \t\n\n\n\n<--\\s-->\n\n* <span style=\"font-weight:bold;\">[INST] </span>reword this instruction keeping all key details:\n  * [REF] for instance, use something like \"click the 'Save' button\" instead of \"press the 'Save' button\"\n    * <span style=\"color:red\">![TIP] Use a descriptive name for your action.</span>\n    * <span style=\"color:green\">![INFO] Be explicit about the element you are targeting.</span>\n    * <span style=\"color:blue\">![TIP] Try to keep it as simple and clear\nStep 4: \nStep 5:  <s>\n\n[INST] * If you are using an existing installation, it is important to make sure that the\n* If you are using an existing installation, it is important to make sure that the\n\n[INST].NET Framework 3.5 SP1 is installed before you install Visual Studio 2010.\n* The.NET Framework 3.5 SP1 is installed before installing Visual Studio 2010.\n\n[s][B]Important note: [/b]\n\n[b]Important note: [/b]\n\n\n\nThe following prerequisites must be installed:\n\n- Windows XP Service Pack 2 or later (Windows Vista is also supported)\n-",
+                  "rouge_score": 0.1863799283154122,
+                  "cosine_similarity": 0.8336729222899174,
+                  "length_ratio": 3.9036144578313254,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "message": "Step 1:  </s>\n\nStep 2: \nStep 3: \nStep 4: \n\n\n\n\n\n</s>\n\n<ol start=\"23\">\n<li><p>Ensure the following directories exist in your web server's document root:\n<ul>\n  <li class=\"first\"> /var/www/htdocs/yourproject/public</li>\n  <li>/var/www/htdocs/yourproject/public/images</li>\n  <li>/var/www/htdocs/yourproject/public/stylesheets</li>\n  <li>/var/www/htdocs/yourproject/public/javascripts</li>\n</ul></p></li>\n</ol>\n\nStep 5: ",
+              "rouge_score": 0.18750000000000003,
+              "cosine_similarity": 0.6925514566822034,
+              "length_ratio": 1.2530120481927711,
+              "children": [
+                {
+                  "id": 19,
+                  "message": "Step 1:  * To create a new site, first choose the name for your new site, and then click Create Site.\n\n[INST] The default settings in a newly created site are:\n\n* The URL of the new site is http://<your domain>/{siteName}/\n\n* Default template is: [Template](https://github.com/epistemex/Moodle-templates)\n\n* Theme: default\n\n* Timezone: UTC\n\n[INST] You can add additional information to this screen by clicking on the pencil icon next to the title. \n\n[INST] You can also change the Name and/or Description later from the Administration > Sites >\nStep 2: \nStep 3: </s>\n\n<inst>**Install**\n\nThis package requires a `~/.config/obsidian` directory (in your home folder) and some plugins installed in the Obsidian plugin manager. If you don't have that, [here's how to set it up](../getting-started/installation.md).\n\nYou can also download the latest version of the app [from here](https://github.com/mikeyk/obsidian-notes/releases/latest), or via the Obsidian **Extension Manager**.\n\nOnce installed, you'll be able to open the app from the bottom toolbar or by selecting \"Open App\" from the command palette\nStep 4:  In the following, we will explain how to install a [URL=http://www.linuxquestions.org/questions/slackware-14/what-does-slackware-offer-over-other-linux-distributions-386381/]Slackware Linux distribution[/URL]. We assume that you are new to Linux and have never used it before. First of all, here is what Slackware is not: It is not an \"easy\" OS, so don't expect magic solutions just because you have installed it. If you want something easy to use, there are other distributions out there, such as Mandrake or SuSE (and even Windows\nStep 5:   The following instructions will help you in the creation and use of your own custom [INST] icon or image [INST] for your site or blog. <br />\n\n\n\n<br /><div style=\"padding-left:20px;\"><span> Step 1 - Create a new page in your WordPress admin area. </span></div><br />\n\n\n<div style=\"padding-left:30px;\">To create a new page in your WordPress admin area, go to \"Pages\" in the left menu and click on \"Add New\". In the editor window that opens, paste the code below into the text box.</div>\n\n\n\n<pre class=\"brush",
+                  "rouge_score": 0.14814814814814814,
+                  "cosine_similarity": 0.8025210119559857,
+                  "length_ratio": 6.503012048192771,
+                  "children": []
+                },
+                {
+                  "id": 20,
+                  "message": "Step 1:  <s>Remove the following line from the description and from\nthe code.</s>\n\n[solution]\n\n[INST] Remove the following line from the description and from\nthe code.\n\n## Solution\n\nReplace `n` with a value greater than 1. This will ensure that there are multiple solutions to your problem. You can test it by setting `n = 2`, for example.\n\nStep 2: `\n\n<inst>\n[INST]reword this instruction keeping all key details\n</inst>\nStep 3: \t1. Download the file and unzip it.\n\t2. Install the software by double clicking on the.exe file.\n\n<inst>\n<inst>2. Run the installer to install the software.\n\t3. Follow instructions to complete installation.\n</inst>\n\n[INSTALL]\n<inst>\n<inst>4. Click \"Next\".\n<inst>5. Check \"I accept the terms of the license agreement\" box.\n<inst>6. Choose a location to save the software.\n\t7. Click \"Install\"\n\t8. Wait for installation to finish.\n\t9. Close program.\n</inst>\n\n[s][INST]\n\nStep 4:  <s>[INST] reword this instruction keeping all key details.</s> <s>[INST] add a bit more detail</s> <s>[INST] add a bit more detail and some references (but try to keep it to one paragraph)</s> <s>[INST] fix the spelling of \"heterogeneous\" [1] </s>\n[INST] add some more information about how to create a new project from scratch\n\nStep 5:  The [INST]instruction is a low-level, direct-memory-access (DMA) instruction that transfers data between memory and peripheral devices. It performs this function by transferring data from an address specified in the instruction to a destination address that is specified by a register inside the processor itself.\n\nThe [INST]instruction takes two operands: one operand specifies the source of the data being transferred, while the other operand specifies the destination of the data. The first operand must be a valid memory address, while the second operand must be a valid register address inside the processor. If neither of these conditions are met, then the [INST]instruction will not execute properly",
+                  "rouge_score": 0.14545454545454545,
+                  "cosine_similarity": 0.78798990499576,
+                  "length_ratio": 5.870481927710843,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "message": "Step 1: \nStep 2: \nStep 3:   # The key value will be used by the template engine to render the form.</p>\n<p> \n<code>{#key}</code></p>\n\n<h2><a name=\"INST:template\">Templates</a></h2>\n\nThe default layout for the form is in <code>site/templates/form/</code>. These templates are composed of different parts, including:</p>\n<ul>\n<li>The form layout (the outermost container), which wraps the input fields and button(s)</li>\n<li>A form header that shows the title and description of the page. It can also contain a logo, search box and other elements\nStep 4:  [s][INST] reword this instruction keeping all key details:\n\n>\n\n[/INST]\n\nI think I'm going to need some help with the following:\nI've been trying to get a bit of an overview of how to do this, but it seems that most people are using the'standard' method (which I assume would be to write a script for each element), and what I want is something along the lines of this:\n\n1. Get all the elements in a particular location.\n2. For each element:\n3. Use the Element Inspector to find the relevant attributes.\n4. If attribute A exists and has value B, then\nStep 5:  This is a small test to get the basic structure of an instruction up and running.",
+          "rouge_score": 0.19081272084805653,
+          "cosine_similarity": 0.8199668319725733,
+          "length_ratio": 3.5963855421686746,
+          "children": [
+            {
+              "id": 11,
+              "message": "Step 1:   add <s>[INST] this one, to the instructions:</s>  [[#Add this one here]]\n\n\n\n<s>[INST] remove these ones, they are now obsolete.</s>\n\n==Installing a plugin==\n\n* Download the [http://wiki.openoffice.org/w/images/4/44/OpenOffice.org_3.0_Extensions.zip archive of extension files] for OpenOffice.org 3.0 or later.\n* Extract the file you want to install in your extensions directory. This is located at ''$HOME/.openoffice.org/program/extensions'' on Linux and Windows and /Applications/OpenOffice.app/Contents\nStep 2:  </s>\nStep 3: \nStep 4:  reword this instruction keeping all key details:\n\nStep 5: ",
+              "rouge_score": 0.2608695652173913,
+              "cosine_similarity": 0.8022858341500003,
+              "length_ratio": 1.8253012048192772,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Search for your laptop model online to find out if the keys come off. On some laptop models, the keycaps can be gently pried off, giving you access to the surface beneath the keys. However, the keycaps on some laptops are permanently attached. Do an online search to determine if, and how, the keys can be removed.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": ">\n\n<details>\n<summary><s>Original Instructional Message</s></summary>\n<br />\n\nOn some laptops, the keycaps can be gently pried off, giving you access to the surface beneath the keys. However, the keycaps on some laptops are permanently attached. The exact method of removing the keycaps varies from one model to another. Do an online search to determine if, and how, the keys can be removed.\n</details>\n",
+      "rouge_score": 0.7213114754098361,
+      "cosine_similarity": 0.9416806679894936,
+      "length_ratio": 1.28343949044586,
+      "children": [
+        {
+          "id": 3,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 4,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 7,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 8,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                },
+                {
+                  "id": 9,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                },
+                {
+                  "id": 10,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 11,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                },
+                {
+                  "id": 12,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

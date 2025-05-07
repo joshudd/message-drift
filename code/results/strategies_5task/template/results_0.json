@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Step 1: Work on your voice\nStep 2: Try to be very musical and sing everyday\nStep 3: Be diligent about practicing and never miss a day of singing\nStep 4: If you are serious about becoming a good singer, you should consider voice lessons.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999782275192,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1: >\n\n<ol>\n<li>Do a quick search to find out if the <a href=\"http://www.musopen.org/wiki/Articulation#Glossary_of_terms_for_articulations\">articulations</a> you need are available. If they aren't, there is no point in working on them because the result will not be good.</li>\n<li>If you do find articulations that you want to work with, download the ones that fit your needs from [Articulate](https://github.com/musecore/articulates).</li>\n<li>In MuseScore, create an empty track and copy/paste\nStep 2: >\n\n\n<sup>[C1] Note the 3rd line of the lyrics, this is an error</sup>\n\n## How do I sing in a choir?\n\nHere you'll find some tips on how to prepare yourself for singing in a choir.\n\n### What should I look out for when choosing a choir?\n\nThe main thing to look for when joining a choir is whether or not you will enjoy the music. It's important to remember that singing is a skill like any other - so if you want to improve your technique, go ahead and join! But don't worry too much about that first rehearsal; just show up with a positive attitude\nStep 3: >\n\n<p>\n  <a href=\"https://www.youtube.com/watch?v=4P2n5g6u9Hw\">\n    <img src=\"https://i.ytimg.com/vi/4P2n5g6u9Hw/hqdefault.jpg\" alt=\"drawing\" width=\"300\"/>\n  </a>\n</p>\nStep 4: ",
+      "rouge_score": 0.1970802919708029,
+      "cosine_similarity": 0.8841420223159435,
+      "length_ratio": 5.25,
+      "children": [
+        {
+          "id": 4,
+          "message": "Step 1: \nStep 2:  [INST] add the following instruction after the \"Use the [i]\" one. <s>[[/INST]]</s>\n\n  - [[/INST]]\n\n## #1\n\n<p>The default is to use a 3D model, but you can change it to any other file format supported by <a href=\"http://en.wikipedia.org/wiki/Wikipedia:Graphics_Library\" target=\"_blank\">Wikimedia Commons</a>.\n\nYou can find other formats and instructions for them at:</p><ul>\n<li><a href=\"/wiki/File:Policies_and_Guidelines#Supported_image_formats\" title=\"/wiki/File:Policies and\nStep 3:  <s>These are the instructions for installing the application on Windows, Mac and Linux.</s>\n\n[INST] These are the instructions for installing the application on Windows, Mac and Linux.\n\n</INST>\n\n\nStep 4: ",
+          "rouge_score": 0.2085889570552147,
+          "cosine_similarity": 0.7347739259860567,
+          "length_ratio": 3.0042372881355934,
+          "children": [
+            {
+              "id": 7,
+              "message": "Step 1:  Re-creating the 2nd \"g\" with a new font and text size: \n1) Open the \"g\" with the same name as the file you want to edit, for example g2\n2) Go to object > expand \n3) In the expanded version of the object select all the letters, numbers and symbols you want to keep (do not include any background or other objects)\n4) Select the font (Aurora Bold Condensed) and the size that matches the original object's font and size. \n5) Copy and paste into the empty frame\n\n\n[INST] reword this instruction keeping all\nStep 2: \nStep 3: \nStep 4: `\n\nThe instructions are:\n\n1. [x] Download the app: <https://github.com/indieweb-apps/app>\n\n2. [ ] Set up your own server: <https://www.indieweb.org/wiki/App#Setting_up_your_own_server>\n\n3. [x] Follow these instructions for a basic installation:<https://github.com/indieweb-apps/app/blob/master/docs/installation.md> and make sure you have an `index.html` file with some content in the root directory of your app.\n\n4. [x] Open up your web browser, type or copy/paste into it the URL",
+              "rouge_score": 0.15450643776824036,
+              "cosine_similarity": 0.7447558714418576,
+              "length_ratio": 4.322033898305085,
+              "children": [
+                {
+                  "id": 12,
+                  "message": "Step 1: \nStep 2:  >\n\n\n\n-   [[S:Create a local user|Create a local user]]\n-   [[S:Create an SSH key pair|Create an SSH key pair]]\n-   [[S:SSH connection|SSH connection]]\nStep 3:   </s> <p>In the following instructions, <i><b>you</b></i> is used to refer to you as a user of the [http://www.w3.org/2005/10/howto-flickr-photostream.html Flickr photostream](see also [http://en.wikipedia.org/wiki/Flickr]).</p>\n<p><b><a href=\"http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking\">[[#Wiki-links]]</a></b> are used in this document. They will be replaced by links when the page is published and converted into an article for\nStep 4: `\n",
+                  "rouge_score": 0.21118012422360244,
+                  "cosine_similarity": 0.7149405239194409,
+                  "length_ratio": 2.707627118644068,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "Step 1: >\n\nThe voice is the sound of you speaking. It\u2019s how you communicate with other people, and it can be a powerful tool for expressing yourself.\n\nThe first step to getting started with the voice is understanding its role in communication. The voice is an important part of the way we communicate with others, both verbally and non-verbally. It can express our feelings, thoughts, and intentions. When we speak, we use our voices to convey information, ask questions, make requests, give orders, or share ideas.\n\nOnce you understand the role that the voice plays in communication, you\u2019ll need to work on improving yours so that you can\nStep 2: >\n\n### Key Facts about the Voice\n\n\u2022 It is the main instrument of music.\n\u2022 There are 8 vocal registers. See register for more information.\n\n### How to Get Started Singing\n\n\u2022 Try singing everyday, even if it\u2019s just humming or talking. You should try to be as musical as possible. Practice singing at different times of day, when you\u2019re not tired (so that your voice sounds better) and in different places. The goal is to be able to sing anytime, anywhere.\n\u2022 Make sure to take good care of your voice by drinking plenty of water and eating a balanced diet, which will help prevent fatigue and\nStep 3: \nStep 4:  \n\n<h2>What is Vocal Coaching?</h2>\n\nVocal coaching and vocal training focuses on the development of your singing abilities. A coach can help you improve your tone, range, breath control, diction, pitch, dynamics, phrasing, articulation, musicality and more.\n\nA voice coach will work with you to find out what's right for you! You may need to change how you sing, or where you sing to make things easier for yourself.\n",
+      "rouge_score": 0.20178041543026706,
+      "cosine_similarity": 0.9151768038707292,
+      "length_ratio": 7.088983050847458,
+      "children": [
+        {
+          "id": 5,
+          "message": "Step 1: \nStep 2: \nStep 3:  </s> [[Image:Build2.png|thumb|600px|center]]\n* 5. Select the build directory that was created earlier.\n** The default is ''/usr/src'' on most distributions, so if you are using a distribution other than Fedora or Ubuntu, it should be something similar to '''/opt/cross/bin'''.\n** * If the file does not exist in your home directory, click '''Create Directory Here'''\n** * Click '''Select Folder''' and navigate to the folder in which you want the cross toolchain to be installed\n* 7. Click '''Download Now'''.\nThis will download the cross\nStep 4:  #!/bin/bash\n# Author: @h4z3r0\n# Maintainer: @h4z3r0\n# License: Apache2\n\n# Check for dependencies, and install them if they're not present.\n# The script will exit with an error message if any dependency is missing.\nif! command -v jq >/dev/null; then\n  echo >&2 \"jq is not installed. Aborting.\"\n  exit 1\nfi\n\n# Make sure the $HOME directory exists.\n# If it does not exist, create it.\nif [! -d \"$HOME\" ]; then\n    mkdir -",
+          "rouge_score": 0.20388349514563106,
+          "cosine_similarity": 0.7389877853309142,
+          "length_ratio": 4.203389830508475,
+          "children": [
+            {
+              "id": 8,
+              "message": "Step 1: \nStep 2:  \nStep 3:  [[Image:Build1.png|thumb|600px|center]]\nThis page is a work in progress\n\n# Overview of the build process\n\nThe core of the build process is done by an automated system that runs on a remote server. The steps taken by this process are outlined below.\n\n## Source code\nThe source code for OpenTTD is stored in a git repository hosted on [http://github.com/open-ttd GitHub]. As OpenTTD uses C++, the version control used is Git, and the project is managed using a continuous integration server called Jenkins. In short, when changes have been made to the source code, they\nStep 4: ",
+              "rouge_score": 0.2091503267973856,
+              "cosine_similarity": 0.6880776248906224,
+              "length_ratio": 2.559322033898305,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "Step 1:  This is a sample file for the [https://github.com/ChongxuanLiu/GeneNet/wiki GeneNet] project. It can be used as a template for your own projects.\n\nSee [[HOWTO|GeneNet HOW-TO]] to see how to build, install and run GeneNet.\n\nYou need to install <s>Python 2.7.x</s> Python 3.5 or higher first before building GeneNet. </p>\n\n<p> \nIt takes some time to download all datasets needed by GeneNet (the default version of GeneNet downloads about 30GB). If you want to use\nStep 2:  #!/bin/bash\n\n# This script is used to generate the release files. It copies the\n# contents of /usr/src/linux-2.6/ to the linux-<version> directory,\n# and then removes a bunch of files from that directory.\n#\n# The version number can be set in the following line:\n\nVERSION=2.4.21-pre11\n\ncd /usr/src/linux-2.6/\n\ncp -a../linux-${VERSION}\n\nrm -f `ls *.o*`\n\nrm -f `ls *.h*`\n\nrm -f `ls Makefile*`\n\nStep 3:  reword this instruction keeping all key details:\n\n## Revision as of 08:44, 7 October 2018\n\nTo build the latest version (dev) you need to install and configure devkitPro. This is done using the following commands:\n```\ncd $HOME\nsudo apt-get update\nsudo apt-get install curl git-core g++-multilib g++ gcc-multilib make lib32ncurses5-dev xterm libxml2-utils libssl-dev lib32readline5 lib32z1 lib32bz2-dev zip unzip  bzip2 zlib1g-dev texinfo:i386 lib32readline6\nStep 4:  [INST] \nIf you are using the installer, you must use a non-root user to execute it. The installer will prompt you for your password and then run as the given user.\n\n## Installation\n\n[INST] [INST] \n\n1. Download the installer (v0.2 or later) by clicking on the \"Download\" link at the top of the page.\n1. Extract the archive with the `tar -xvf` command from within the directory where you downloaded the file. This will create a new directory named `jrebel`.\n1. Move the extracted contents into your server's web root folder.\n1.",
+              "rouge_score": 0.1216931216931217,
+              "cosine_similarity": 0.7043793640504175,
+              "length_ratio": 7.927966101694915,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "Step 1: \nStep 2: \nStep 3: \nStep 4:  <s>and, as a result, the [[#STH|System]] will always be in sync with its local time and never skip ahead or behind.  </s> [color=#FF0000]<s>and, as a result, the System will always be in sync with its local time and never skip ahead or behind.</s>\n\nIf you have set your system's clock to the wrong time (by turning it off for too long) then use the following instructions to fix the problem:\n\n1. Press the '''clock''' button on the remote control until the hour hand is at the correct hour.\n\n2. If",
+          "rouge_score": 0.26666666666666666,
+          "cosine_similarity": 0.7966623137787088,
+          "length_ratio": 2.2584745762711864,
+          "children": [
+            {
+              "id": 10,
+              "message": "Step 1:   This is a simple instruction to illustrate how to use the `*` operator for\nmultiplication in a regular expression.\n\nThis can be useful if you need to perform multiple operations on a single pattern.\n\nFor example, suppose we have two patterns:\n\n```js\nconst first = /ab/g;\nconst second = /cd/g;\n\n// we want to multiply them together using `*`\n```\n\nThe result should look like this:\n\n```js\n/abcd/g\n\n// so we do:\nfirst * second\n```\n</s>\nStep 2:  If you want to install the [INSTALLATION] (hereafter referred to as the \"Plugin\") in WordPress, follow the steps below.\n\n<ol>\n    <li>Copy the Plugin folder from the [DOWNLOADS] to the /wp-content/plugins/ directory of your site. Or extract the downloaded archive file and then copy the plugin folder to the above directory.</li>\n    <li><a href=\"https://wordpress.org/support/plugin/twentytwenty/\">Click here</a> to activate the plugin.</li>\n    <li><a href=\"https://wordpress.org/plugins/twentytwenty/help/#settings\">Click here\nStep 3: \nStep 4: ",
+              "rouge_score": 0.19323671497584538,
+              "cosine_similarity": 0.7646449335174839,
+              "length_ratio": 4.233050847457627,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": "Step 1: \nStep 2:  The default setting for the [u][b]Synchronize with Server[/b][/u] option is 'Automatic' which means that when you connect to a server, the program will automatically check for new files. In this case, any new files on the server will be downloaded and added to your library.\n\nThe manual mode (where the synchronization happens only after you click the Synchronize button) works better if you have a slow Internet connection or want to limit the amount of data that is transferred between the computer and the server.\nStep 3:  <s>\n\n<s>[INSTR] add a paragraph to the end of the 'About' page, saying how and why\nthe project was created:</s>\n<s>\n[ABOUT]\n[sig] This site is the result of several years of hard work by its creator,\n[[user:Sig]].\n\nIt is an attempt to create a friendly environment for learning about Linux,\nand it is hoped that one day it will become the best resource on the web for\nlearning Linux basics.  It is also intended to be useful as a place where you can\nshare your experience with other users.\n</sig>\n\nThe project has been running\nStep 4: ",
+              "rouge_score": 0.2074688796680498,
+              "cosine_similarity": 0.7954757919930726,
+              "length_ratio": 4.572033898305085,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

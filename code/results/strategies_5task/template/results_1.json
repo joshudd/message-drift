@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Step 1: Cut the wires\nStep 2: Cut one plastic connector( plug) off of each wire, you should used dykes or wire cutters, but if you don \u2019 t have those a knife or scissors will do\nStep 3: It is important that you cut opposite sides off otherwise the you stand a 50/50 chance of screwing up step three\nStep 4: If you look at the connectors with the hook down you should see four wires in this order Black, Red, Green, Yellow from left to right and the other connector will have them in reverse order\nStep 5: Cut the connector with the wires in BRGY off the first wire then the connector with the YGRB off the second wire.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1: >\n\n\n```sh\n#!/bin/bash\n\n# Cut the wires\n\nsudo -s\nmkdir ~/tmp/\n\nrm -rf /var/lib/apt/lists/*\napt-get clean\n\nwget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb\ndpkg --install google-chrome-stable_current_amd64.deb\n\ncd ~/\nrm -rf ~/Downloads/* ~/google-chrome-stable_current_amd64.deb ~/.config/chromium/ ~/tmp/*\n\nsudo rm -rf /home/$USER/.config/chromium/ sudo rm -f /usr/local/bin/google-chrome && sudo ln -s /opt\nStep 2:  </s>\n\nStep 3: \nStep 4: \nStep 5: ",
+      "rouge_score": 0.1268292682926829,
+      "cosine_similarity": 0.404824845404293,
+      "length_ratio": 0.7864077669902912,
+      "children": [
+        {
+          "id": 4,
+          "message": "Step 1:  This section is about the use of\n\n<-- -->\n\n  - [[Glossary]]\n  - [[FAQ]]\n  - [[Installation]] (this)\n  - [[Release Notes]]\n\nThis document describes the installation procedure for installing the MediaWiki software on a system running Linux. It does not attempt to describe how to install other software required to run a wiki; these are usually available from your distribution's package management system, and should be installed before attempting to install MediaWiki.\n\n## Contents\n\n## Prerequisites [ edit ]\n\n### System requirements [ edit ]\n\nMediaWiki requires PHP version 5 or greater.\n\nNote: As of May 2020\nStep 2:  <s> [INST] reword this instruction keeping all key details:\n</s>\n[INST] install the package you want to use by following the instructions in the README.md file.\n\nStep 3: reword this instruction keeping all key details\n\n  - For users who have already installed the [INST] (or are using a previous version): run the update script by going to the folder where you installed the plugin and running:\n\n<code>sudo /usr/local/bin/easyphp-cli.sh</code>\n\n  - For new users: install EasyPHP-CE with composer. Please note that it is strongly recommended to use Composer as an installer for your project.\n```\ncomposer create-project --prefer-dist easyphp/easyphp-ce\n```\n\nThen, follow the instructions given on your screen to complete the installation.\n\nYou can\nStep 4: \nStep 5:  Reorder the following code to allow the execution of a single program, but with a different file name. This is called the \u2018name space\u2019.\n\n<pre class=\"brush: bash; title: ; notranslate\"><code>\n#!/bin/bash\n\n# use variable $1 to capture command line input\nfile_name=$1\n\n# create output file named <filename>.txt\ntouch \"$file_name.txt\"\n\n# append the content of $file_name to the new text file\ncat \"$file_name\" >>\"$file_name.txt\"\n</code></pre>",
+          "rouge_score": 0.22113022113022113,
+          "cosine_similarity": 0.8093340453817154,
+          "length_ratio": 2.9644012944983817,
+          "children": [
+            {
+              "id": 8,
+              "message": "Step 1: \nStep 2: \nStep 3: \nStep 4:  <s>Install the package (in a terminal):\n\n[sudo] apt-get install  libswscale-dev\n\n</s>\n\n<s>Open your Blender Project, go to File > User Preferences > Add-ons.\n\nClick on the Install from file button and select the file \"Add-on\" in the same directory where you installed Blender.\n\n\n\nGo to Add-ons > Install from zip file \u2026, choose the folder \"addon\". You can now find the add-on in the list of installed add-ons.\n</s>\n\n\n\nStep 5: ",
+              "rouge_score": 0.26213592233009714,
+              "cosine_similarity": 0.7236918875853656,
+              "length_ratio": 0.7475728155339806,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "Step 1: \nStep 2:  <s> [INST] reword this instruction keeping all key details:\n- Remove any line that does not contain a command.\n+Remove any line that does not start with a comment character or\n+start with a command name followed by an optional whitespace and\n+optionally a semicolon.\n\nThis was the original, before I thought of removing anything after the first non-whitespace character. The idea is to remove lines that are comments or commands starting with a valid command name. This removes any lines where the command starts with white space or has a trailing semicolon.\n\nI guess you could also consider this as another option (the first\nStep 3:  [INST] reword this instruction keeping all key details: </s>\n\n### The thing I'm trying to do.\n\nI have a form with 2 drop downs and a text field. I need to calculate the total cost of these items based on their selections, but I can't seem to get it working correctly.\n\nThe form is in an iFrame (from Google Spreadsheets). I've setup the script to run automatically when the user clicks out of the fields, so that the calculations are done immediately after they select something from either drop down box or enter some text into the text field.\n```\nfunction onUnload(e) {\nStep 4:  [INST] remove the following instructions:\n\n- \"If you wish to have your own custom build, we can do that too\" -- if it's a good idea to ask for money up front for something not yet built\n- \"we'll be happy to provide consulting services to help your company develop its product\" -- sounds like we're selling consultancy services here. This is not what we're doing.\n- \"we will also offer you some special deals on our products and services\" -- again, this seems to imply that we're offering discounts on things we haven't even done. Not at all.\n\nAlso, there are some odd inconsistencies\nStep 5: ",
+              "rouge_score": 0.2376681614349776,
+              "cosine_similarity": 0.8768133162334928,
+              "length_ratio": 2.954692556634304,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "Step 1: >\n\n<@#! [INST] 2017-03-12\nAdd a link to our new [https://github.com/omniatlas/paper|paper] on OmniAtlas.\n\n## Overview\n\nOmniAtlas is an open-source, web-based platform for geospatial data analysis and visualization. It combines high-performance computing with web technologies in order to provide users with scalable access to large datasets. The software is written in Python using the Flask framework, and is designed to be easy-to-use by domain experts who are not necessarily computer scientists or programmers.\n\n</@#>\nStep 2: >\n\n# <s>Install</s> Set Up Your RPi2 and Pi3\n\n## Install Raspberry Pi Imager\n\nDownload the latest version from [https://www.raspberrypi.org/downloads/raspberry-pi-imager/](https://www.raspberrypi.org/downloads/raspberry-pi-imager/) (or download it directly from here: https://github.com/raspberrypi/tools/releases). The image we recommend is the latest stable release. You can also check out the development branch for new features.\n\nOpen Raspberry Pi Imager. Then select your SD card in the left pane. If it doesn\nStep 3: \nStep 4: \nStep 5: ",
+      "rouge_score": 0.24406779661016947,
+      "cosine_similarity": 0.7831230703205055,
+      "length_ratio": 1.7459546925566343,
+      "children": [
+        {
+          "id": 5,
+          "message": "Step 1: \nStep 2:  [EDIT] Fix the link to the page, it should be a link to a new page and not the page itself.\n\nEdited Mar 06, 2020 by Radek Dou\u0161a\nStep 3:  1. Install the latest version of Adobe Flash Player for Mac OS X from http://get.adobe.com/flashplayer\n2. Open a terminal window and paste the following command (or replace \"http://www.machinerobot.net\" with your actual site name):\n[[sudo -s cp /Library/Application Support/Macromedia/Flash Player/Support/FlashPlayerInstaller.dmg ~/Downloads && sudo -s cp -R ~/Downloads/* /Library/Application Support/Macromedia/Flash Player]]\n3. Run the installer and follow the prompts to install\n4. Quit the Terminal app.\n5. If you've\nStep 4: \nStep 5: ",
+          "rouge_score": 0.2459016393442623,
+          "cosine_similarity": 0.7253589269145709,
+          "length_ratio": 1.1245954692556634,
+          "children": [
+            {
+              "id": 10,
+              "message": "Step 1:   <s>[[http://www.ubuntu.com/]]</s> <s>[[https://help.ubuntu.com/community/InstallUbuntu|Install Ubuntu]]</s>\n\n\n<install></install>\n\n=== Upgrade from 11.10 to 12.04 ===\n<install-upgrade></install-upgrade>\n\n<install-migration></install-migration>\n\nStep 2:  </s>\n\n## Overview\n\nThere are two types of pages in Gitea: project pages and wiki pages. Both can be found in the Pages menu.\n\nProject pages contain static content for your projects such as project description or links that you want to share with users. Wiki pages contain documentation that can help users get started using Gitea, but also contains instructions on how to build Gitea from source code (see Building Gitea ).\n\nThe purpose of wiki pages is to provide information about Gitea, its features, and installation. In order to make sure the wiki does not grow too big, please only use them if\nStep 3: >\n\nIf you have installed the previous version (10 or 9), you will need to uninstall it before installing the new one. Use the following command line:\n\n`sudo rm -rf /Library/Application Support/Adobe/Flash Player`\n\nThe next time, install Adobe Flash Player by using the installer application that is included in your package.\n\nYou must then restart your computer and log off and on again. After restarting, run the following script to remove any leftover files and folders:\n\n`rm -rf ~/Library/Caches/Macromedia/Flash Player/*`\n\n`rm -rf ~/Library/Preferences/com.macromedia.fps.*`\n\n\nStep 4: reword this instruction keeping all key details: <s>1. Use only the following commands:\n\n```\n<code lang=\"bash\">\n  wget -O - https://download.docker.com/linux/debian/gpg | sudo apt-key add -\n  echo \"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-ubuntu-focal.gpg] https://download.docker.com/linux/debian focal stable\" | sudo tee /etc/apt/sources.list.d/docker.list\n</code>\n2. Update and install Docker\n\n```\n\nIf you want to use a container from Dockerhub, you need to run:\n\n```\n\nStep 5: \t</s>\t<s>[INST] the second part of this instruction is not clear enough. This could be written as follows:\n\n* [Q] \"I want to change the current user password\"\n* [A] Use the following command: `passwd`\n\nPlease note that I have removed the `sudo` in front of the command since it's obvious that you're using sudo.\n\nThe problem with your version is that, on some systems, `passwd` will change the root password instead. This is because `root` is the only account on some systems which doesn't require a password. </s>\n",
+              "rouge_score": 0.22598870056497175,
+              "cosine_similarity": 0.8389322834632894,
+              "length_ratio": 4.006472491909385,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "Step 1:  [INS]\n\n[[*]] [[*]]\n\n[**]\n\n[<]\n\n>> [<<]\n\n>>> >>\n\n[<]\n\n>> [<<]\n\n>>> >>\n\n[<]\n\n>> [<<]\n\n>>> >>\n\n[<]\n\n>> [<<]\n\n>>> >>\n\n[<]\n\n>> [<<]\n\n>>> >>\n\nStep 2: \nStep 3:  To create a new module, you need to add a.py file with the name of your choice into <b>modules/</b> and make sure it has an empty __init__.py file inside. It is important that there's no other files or folders in the same folder.\n\nTo do so, open <b>__init__.py</b>, and type:\n\n<pre>\nimport os\nfrom django.core.management.base import BaseCommand, CommandError\n\nclass Command(BaseCommand):\n    help = 'Add some text here'\n\n    def handle(self, *args, **options):\n        self.stdout.write('Hello World!')\n\n\n\nStep 4: \nStep 5:  \n\n\n\n\n\n<doc>\n\n  <p>See the [wiki:HelpOnEditing#WikiLinks|help page on wiki links](HelpOnEditing#WikiLinks) for more information.\n\n    </p>\n\n\n\n</doc>\n",
+          "rouge_score": 0.25104602510460244,
+          "cosine_similarity": 0.6878968900360761,
+          "length_ratio": 1.3511326860841424,
+          "children": [
+            {
+              "id": 11,
+              "message": "Step 1: \nStep 2:  <s>[/INST]\n```\nStep 3: >\n\n===\n\nA Module can be used by any other script by importing it into the code. It is worth noticing that modules are case-sensitive! If you have a module named MyModule, but you try to import it as mymodule, you won't get anything.\n\nStep 4: \n\n\n\n\nThis page is for the user who will install [InstName], which can be found at [URL]. Please read through it carefully to make sure that you know how to do everything needed before proceeding.\n\n\n\nThe following are the minimum requirements necessary for installing and running [InstName]:\n\n*   A computer with an Intel-compatible processor (i686 or higher) and 2GB of RAM.\n*   An operating system. We recommend Windows XP, Vista, 7, 8, or 10. [InstName] has been tested on these systems, but may work on others as well.\n*   An internet connection for automatic updates\nStep 5:  The following commands are available for use with the <s>[[<w>]] command:<s>\n\n* [[<w><l>]]\n* [[<w><i>]]\n* [[<w><b>]]\n\n</s>\n\n<s>[INST] note that we're adding to the existing code, not replacing it.</s>\n",
+              "rouge_score": 0.28196721311475414,
+              "cosine_similarity": 0.8602795993634111,
+              "length_ratio": 1.72168284789644,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "message": "Step 1: \nStep 2: \nStep 3: \nStep 4:  #include <iostream>\n\nusing namespace std;\n\nint main() {\n\nstring name;\ncout << \"What is your name?\" << endl;\ncin >> name;\n\nreturn 0;\n\n}</s>\n\nStep 5: ",
+          "rouge_score": 0.14473684210526316,
+          "cosine_similarity": 0.6173288702603151,
+          "length_ratio": 0.2977346278317152,
+          "children": [
+            {
+              "id": 12,
+              "message": "Step 1: \nStep 2:  [INST] write a small (3 line) script which reads the file in question and prints out its contents using `echo`.\n\n\n[CONSOLE]\n[sim]:~$./<file-name>\nThis is some sample text\n\nStep 3:   </s>\n\n\n# About\n\n[![Join the chat at https://gitter.im/ant-design/ant-design](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ant-design/ant-design?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\nAnt Design is an enterprise-grade UI design language and React UI library with a set of components and principles.\n\n## Getting Started\n\nTo get started with Ant Design, follow these steps:\n\n-   [Prerequisites](http://www.ant.design/docs/react/getting-started-cn)\n-   [\nStep 4:  [INS] #include <vector>\n\n[INS]\n\n## Main\n\n```cpp\nusing namespace std;\n\nint main() {\n    int x = 4;\n    vector<int> v1 {x};\n    vector<int> v2(5, 7); // creates a 5 element vector with value 7 in each position.\n    vector<int> v3 (v2.begin(), v2.end()); // copy of v2 without modifying the original.\n\n    return 0;\n}\n```\n\n```{admonition} Explanation\n\nThe first line creates an integer variable called `x` and assigns it a value of 4\nStep 5:  </s>\nThe first step in using the \"Gather\" action is to create a [link=CreateAJob][job template][/link]. This is done in the same way that you would use any other job template.\nOnce you have created the job template, you can add it to your [link=CreateAJobAction][action collection][/link].\n\nThe second step is to gather information from the user. You do this by adding fields to the job template. The example below shows how we gather the name of the recipient and their email address.\n\nYou will notice that in this case I also added an optional field for the",
+              "rouge_score": 0.2524271844660194,
+              "cosine_similarity": 0.8480134502100194,
+              "length_ratio": 2.7702265372168284,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

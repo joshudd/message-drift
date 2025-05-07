@@ -1,0 +1,101 @@
+{
+  "id": 1,
+  "message": "Cut the wires. Cut one plastic connector( plug) off of each wire, you should used dykes or wire cutters, but if you don \u2019 t have those a knife or scissors will do. It is important that you cut opposite sides off otherwise the you stand a 50/50 chance of screwing up step three. If you look at the connectors with the hook down you should see four wires in this order Black, Red, Green, Yellow from left to right and the other connector will have them in reverse order. Cut the connector with the wires in BRGY off the first wire then the connector with the YGRB off the second wire.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999968886054,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 5,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 12,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        },
+        {
+          "id": 7,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 8,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": " >\n\n\n1. The circuit shown in Figure P2-21(a) has a current source of 5 A and a voltage source of 10 V.\na) Write an equivalent circuit for the branch from node b to ground.\nb) Find the current Ii through the 3 k\u03a9 resistor.\nc) Show on the network diagram of part (a) the potential difference between nodes b and c. Determine the value of R if no current flows from node b to node d.\nd) Use Thevenin's theorem to reduce the network to its equivalent circuit. Write the expression for Vi in terms of Ri and Ii",
+      "rouge_score": 0.17757009345794392,
+      "cosine_similarity": 0.676500602778264,
+      "length_ratio": 0.8676975945017182,
+      "children": [
+        {
+          "id": 9,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        },
+        {
+          "id": 10,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        },
+        {
+          "id": 11,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

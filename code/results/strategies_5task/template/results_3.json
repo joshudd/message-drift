@@ -1,0 +1,101 @@
+{
+  "id": 1,
+  "message": "Step 1: Soak the parts in soapy water for 10 minutes to get rid of residue and odor\nStep 2: Leave the basket in the pan and fill it up with enough hot water to cover all the dirty bits\nStep 3: Squeeze a few drops of dish detergent into the water and let the parts soak for 10 minutes or so\nStep 4: Rinse the parts out thoroughly and scrub any remaining residues off with a soft sponge\nStep 5: You can also use a soft- bristled brush to help loosen stuck- on food bits.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 0.9999999988545404,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1: \nStep 2: \nStep 3: >\n\n### Help Support The Rocketry Forum:\n\n#### J. O.\n\n##### Well-Known Member\nTRF Supporter\nI know this has been posted before, but I'm wondering if anyone has tried this? If so, what was your results?\n\n#### J. Enoch\n\n##### Well-Known Member\nTRF Supporter\nI did this with my 14mm shock tower on one of my Estes Aerotech rockets. It worked out just fine. I used about half a cup of Dawn in a bucket and soaked the part overnight.\nThis method is probably better than boiling it because you get more control over how long you\nStep 4: >\n\n<h2>Build Instructions</h2>\n<ol>\n<li>Read <a href=\"http://www.thingiverse.com/thing:1378\">the instructions</a>.\u00a0 The build is pretty simple but there are some important steps.</li>\n<li><i>Do not </i>use superglue or other strong adhesive on the chassis because it will cause the motor to bind. Instead, use silicone sealer to seal the edges of the chassis together so that nothing can leak through. Also apply a small amount of silicone sealer to the sides of the stepper motors (don't cover them up) where they\nStep 5: >\n\nThe <a href=\"http://www.amazon.com/dp/B0029VJ1PQ/?tag=thejunkremovalguys-20\">Wahl</a> is the best electric toothbrush you can buy for home use. It's easy to clean and maintain, it comes with several brushes so that you can change your brushing pattern if needed (it has a deep-cleaning brush, a sensitive-soft brush, and a regular hard brush), and it's really effective at removing plaque and bacteria from teeth.",
+      "rouge_score": 0.26229508196721313,
+      "cosine_similarity": 0.8479470665984655,
+      "length_ratio": 3.1944444444444446,
+      "children": [
+        {
+          "id": 4,
+          "message": "Step 1:  The <s>[[#Introduction|Introduction]]</s> of the course is available on <a href=\"http://www.astro.cornell.edu/courses/ast101/2013/index.php\">the course website</a>.  [[#Schedule|The schedule]] for the semester will be posted shortly.  Please check the syllabus page occasionally to see if there have been any changes.\n\nYou may find it useful to go over these materials before the first day of class, or to review them later in case you miss a lecture or need a refresher.\n\n\n<s>[INST] reword this instruction keeping all key details\nStep 2:  </s>\n\n<s>[INST] I don't like this sentence. \"the main\" is not in the scope of the verb and is therefore omitted.\n\n[INST] It's a bit hard to understand the first sentence. Maybe you could try something like:\n\nA small file is created on your computer, which contains an encrypted version of the document you want to share.\n</s>\n\n[INST] \"This password\" - maybe just \"password\"? </p>\nStep 3: \nStep 4:  <s>As soon as the first time you start a fresh installation of Ubuntu 18.04, a new user will be created and your system will be configured to log in automatically with this account.</s>\n<s>During the setup wizard, you can create another local account by clicking on the \"Create new user\" button at the end of the process (see picture below). This is not mandatory but it is highly recommended since an automated login avoids having to type your password each time.</s>\n\nThe same applies if you install a fresh copy of Ubuntu 20.10 or later.\n\nFor these operating systems we strongly recommend setting up\nStep 5:  ",
+          "rouge_score": 0.21866666666666668,
+          "cosine_similarity": 0.7586880963088382,
+          "length_ratio": 3.3333333333333335,
+          "children": [
+            {
+              "id": 7,
+              "message": "Step 1: \nStep 2: \nStep 3:  * Install the latest NVIDIA drivers for your graphics card.  The driver version can be checked using nvidia-smi.  On Fedora, if you have an AMD or Intel graphics card installed, it will not use the proprietary drivers and instead uses its own open source drivers.\n\n* Install the [https://www.nvidia.com/object/unix.html NVIDIA Proprietary Graphics Driver].\n\n* To run a program that requires OpenGL support, you must add the following to the end of `/etc/environment`:\n\n```sh\nLIBGL_ALWAYS_INDIRECT=1\n```\n\nThis will force the programs that you want to use OpenGL with to always use\nStep 4: \nStep 5: ",
+              "rouge_score": 0.3054187192118226,
+              "cosine_similarity": 0.7142309421517935,
+              "length_ratio": 1.3333333333333333,
+              "children": []
+            },
+            {
+              "id": 8,
+              "message": "Step 1: \nStep 2: \nStep 3:  The following command will start the installation of the latest version of [[BleachBit]]. This should take less than 2 minutes to complete:\n\n[s][INST] wget -c https://github.com/bleachbit/bleachbit/releases/download/v${INSTALL_VERSION}/bleachbit-${INSTALL_VERSION}.zip\n[s][INST] unzip bleachbit-${INSTALL_VERSION}.zip\n[s][INST] mv bleachbit-${INSTALL_VERSION} /usr/bin/bleachbit\n[s][INST] chmod +x /usr/bin/bleachbit\n[INST] exit\n\n\n=== Installation ===\n\n[s]\n[!] If you are running\nStep 4: \nStep 5:  <s> 1. Make sure that your computer is running Windows 7, Vista or XP with Internet Explorer 6.0 or later.\n* If you are using Windows 7 and have installed the Windows Live Essentials application (formerly known as Windows Live), please close it now before proceeding.\n\n2. Download the driver to your local hard drive.\n3. Double-click on the downloaded file to begin installation.\n4. Follow the prompts to complete the installation.</s>\n\n[INST]\n\n1. Please make sure that your computer is running Windows 10, Windows 8, Windows 7, Vista or XP with Internet Explorer 6",
+              "rouge_score": 0.22627737226277372,
+              "cosine_similarity": 0.6969976753263861,
+              "length_ratio": 2.3290598290598292,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "Step 1: \nStep 2: \nStep 3: \nStep 4: \nStep 5: ",
+              "rouge_score": 0.18867924528301885,
+              "cosine_similarity": 0.4038854621539576,
+              "length_ratio": 0.09401709401709402,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "Step 1: \nStep 2: \nStep 3: \nStep 4: >\n\n<h1>Assembly</h1>\n<p>The assembly instructions are very simple. You need to put two parts together.</p>\n\n<ol class=\"instructions\">\n<li><a href=\"/docs/assembly-2.html\"><span title=\"\">Step 1: Connect the motor</span></a>\n<ul>\n\t<li>Rinse the parts out thoroughly and scrub any remaining residues off with a soft sponge</li>\n</ul>\n</li>\n<li><a href=\"/docs/assembly-3.html\"><span title=\"\">Step 2: Connect the PCB</span></a>\n<ul>\n\t<li>Screw the connectors on both sides\nStep 5: ",
+      "rouge_score": 0.37433155080213903,
+      "cosine_similarity": 0.826986840424834,
+      "length_ratio": 1.0897435897435896,
+      "children": [
+        {
+          "id": 5,
+          "message": "Step 1: >\n\n* [INST] Rebranding of the project and website. ([#13](https://github.com/ethereum/mist/pull/13))\n* [INST] Add support for accounts with zero balance. ([#12](https://github.com/ethereum/mist/pull/12))\n* [INST] Improve handling of network errors. ([#11](https://github.com/ethereum/mist/pull/11))\n* [FIX] Do not use `window` to access Mist's global variables. ([#10](https://github.com/ethereum/mist/pull/10))\n\n\nStep 2: Create an instance of a `com.kms.katalon.core.testobject.TestObject` class and use it to specify the test object that you want to interact with.\n\n[DOC]To create a Test Object:\n\n1. Open the **Variables** window by pressing **Ctrl + H** or **Cmd + H**.\n2. Click the plus sign (`+`) button on the lower left corner.\n3. Select **New** > **Test Object** from the menu.\n4. Enter a name for your new test object in the **Name** field, such as `\"My Object\"`.\n5. In the **Type** field\nStep 3:  The \"inst\" tag has the following syntax:\n\n*   <s>text</s> - strikethrough\n*   <i>text</i> - italic text\n*   <b>text</b> - bold text\n*   <u>text</u> - underline text\n\nFor example, in this sentence you'll see:\n\n<ins>The inst tag is used to mark instructions.</ins>\n\nNote that if a word inside the tag has spaces or punctuation marks then it will be interpreted as a new tag. For instance, if you have written <i>this is not a good example</i>,\nStep 4: \nStep 5:  Add `--no-plugins` when using the bundled plugin to avoid conflicts with installed plugins.\n</s>\n",
+          "rouge_score": 0.22857142857142856,
+          "cosine_similarity": 0.7424715440011509,
+          "length_ratio": 3.1452991452991452,
+          "children": [
+            {
+              "id": 10,
+              "message": "Step 1: \nStep 2:  </s>\nStep 3:  (or [INST], or any other sequence of characters)\n[INST] is a valid command to be executed by the user.\n[INST] may contain parameters, which are values passed to the command.\nAny number of commands and parameters can follow each other.\n\nIn this example there is only one parameter, but more than one parameter is also possible:\n\n/INST mycommand -param1 10 -param2 20\n[/INST]\n\nThe output of the above code would look like this:\n\nmycommand: param1=10; param2=20\n\nThe \"inst\" tag will show up in the final output as it appears here\nStep 4: reword this instruction keeping all key details:\n\nThe `sudo` command is a powerful tool that allows you to execute commands as the superuser. It is important to use it with caution and only when necessary.\n\nTo use `sudo`, first, you need to add your username to the sudoers file. This can be done by running the following command in the terminal:\n\n\n```bash\nsudo visudo\n```\n\nThis will open the sudoers file in a text editor. You should see a list of users who have permission to run commands using sudo. If your username is not present, you can add it to the list like so:\n\n\n\nStep 5: `\n\n## # Install\n\n```bash\nnpm install @r4k4/r4c-plugin-bundle -g\n```\n\n## # Usage\n\n### # 1. Create a new project\n\nYou can use the following command to create a new R4C project:\n\n```sh\nnpx r4c init [name]\n```\n",
+              "rouge_score": 0.2507462686567164,
+              "cosine_similarity": 0.7435963536961723,
+              "length_ratio": 2.8974358974358974,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": "Step 1:  <s>This is a stub of an [instruction].  It needs to be written, filled in with all the pertinent information, and then submitted for review.  Please use the template to write your own instruction, and then add it here as a new subsection.</s> <s>Instructions should contain:  (1) a short introduction, (2) a list of commands that need to be entered to complete the action, (3) some explanation of how to interpret the output generated by the command(s), and (4) any useful notes about possible problems or pitfalls.</s> <s>If the instruction involves a script,\nStep 2: >\n\n## Example\n\n```java\n// create a test object named 'text1' from a text field element in your application\nTestObject text1 = new TestObject()\n.text('text1')\n.findTestObject('my_project/my_feature/MyApp/TextField')\n\n// add a value to the text field\ntestObject.setText(text1, 'Katalon Studio is awesome!')\n```\n\n## Properties\n\nThe following properties are available for this keyword.\n\n| Property | Type | Required |\n|---|---|---|\n| [TEXT](../../api/katalon-rcpproxy-api/apkatestobject/text.md) |\nStep 3:  InstName [/INST]\n\nIt must be used between two lines. It's mandatory to use it at the beginning of each line.\n\nUse the [INST] command at the start of a line and then type the name of the Instruction (the name is case-sensitive).\n\nIf you want to insert spaces in an instruction, surround them with underscores as follows: _SPACE_.\n\nExample:\n\n  [INST] Start _New Line _End [/INST]\n</s>\n\nStep 4: \n\n\n\n\n\n<s>[[/INST]]\n\n\n\n<s>[INST] the example below is wrong.  Replace with the correct\n\n  [[example]] code and explain it to the student in a way that she can\n\n  follow.\n\n\n\n  [/INST]\n\n\n\n[EXAMPLE]\nThe following code shows how to use the `isinstance()` built-in function.\n\n```\n>>> isinstance('string', str)\nTrue\n>>>\n```\nStep 5: `\n\nThis comment has been minimized.\nSign in to associate your repository with",
+              "rouge_score": 0.21374045801526714,
+              "cosine_similarity": 0.7708398985647701,
+              "length_ratio": 4.006410256410256,
+              "children": []
+            },
+            {
+              "id": 12,
+              "message": "Step 1: \nStep 2: `\n\n<details>\n    <summary>Click here for detailed instructions</summary>\n\nThis is a simple example on how to create a custom object in Katalon. It will help you to better understand the concepts behind creating your own objects. This example uses a web page as an example, but any other type of application can be used.\nThe first step is to identify which element you want to work with. In our case we are going to choose an input field from Google search results page:\n\n![image](https://user-images.githubusercontent.com/1138493/150755867-d4c8d5a9-b2b3\nStep 3:  title [/INST]\n\nthe title is optional, but if you specify it then it will be used to generate the title for the instructions. If you don't supply a title, then one of the variables below will be used instead.\n\nNote: The title may not contain any HTML tags (such as <b> or <i>) and should be no longer than 40 characters.\n\nThis will display your instructions in a box like so:\n\nInstructions\n\nIf you use an image with the [INST] tag, it must have the same width as the box around the instructions, otherwise it could look out of place.\n\n[INST] This will display\nStep 4:  1) Install libav-tools\n\n<http://www.libav.org/download.html>\n\n<http://libav.sourceforge.net/>\n\nInstall the package:\n\nsudo apt-get install libav-tools\n\n</s>\nStep 5: `\n\n===\n\n<s>[INST]\n\nThe bundled version of PHP is [https://github.com/PHPMyAdmin/phpmyadmin/releases/tag/v4.9.1#5b6aefc3bce2fbaee7d9e0de8a6ecae68fbcaaa1 5b6aefc](https://github.com/PHPMyAdmin/phpmyadmin/releases/tag/v4.9.1#5b6aefc3bce2fbaee7d9e0de8a6ecae68fbcaaa1) and does not include any plugins.",
+              "rouge_score": 0.24109589041095889,
+              "cosine_similarity": 0.7720980032260877,
+              "length_ratio": 3.4380341880341883,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "Step 1: This section describes the configuration required for a\n    [url=https://www.pearsonitcertified.com/products/ixia-networking-accelerator.html]IXIA Network Simulator.[/url]\n\nThe IXIA Network Accelerator is designed to offload network traffic from your PC. It provides a virtual network that you can use to test applications and services on your local network. You need to configure your PC for connection to the IXIA Network Accelerator. This enables you to connect to other devices on your network, such as servers or workstations.\n\nYou do not have to install any software on the IXIA Network Accelerator;\nStep 2: # This file is distributed under the GPL license.\n\n# Copyright (C) 2011-2020, Jan Kratochvil\n\n# This program is free software; you can redistribute it and/or\n# modify it under the terms of the GNU General Public License\n# as published by the Free Software Foundation; either version 2\n# of the License, or (at your option) any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n# GNU General\nStep 3: \nStep 4:  reword this instruction keeping all key details:\n>  If you are running Windows XP, download and run the latest version of the\n>  [Windows XP SP3](http://www.microsoft.com/downloads/details.aspx?familyid=6B86ED16-7654-420A-8E07-D9A2D0DA5C12&displaylang=en) update. Once installed reboot your computer.\n>\n>  If you are running a more recent version of Windows (e.g., Vista, or 7),\n>  skip to step 2.\n>\n>  Install iTunes from the [iTunes download page](http\nStep 5: Create a new folder on your desktop called 'Fusion' and copy the contents of the downloaded archive into it. Do not extract the files, just drop them in to the newly created folder.\n\n\n\n[s][INST] If you are using an existing 3D program, you'll need to load up that application first. Open the Fusion folder and double-click on the file called 'fusion.exe'. This will open the main screen for Fusion 360. You can leave this window up as we will be working with it from time-to-time.\n\n\n\nIf you are opening Fusion 360 via the Windows Start Menu, click on the 'desktop' icon",
+          "rouge_score": 0.19189765458422176,
+          "cosine_similarity": 0.7160609602380368,
+          "length_ratio": 4.754273504273504,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

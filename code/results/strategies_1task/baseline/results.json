@@ -1,0 +1,171 @@
+{
+  "id": 1,
+  "message": "Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained. Typically, this will be your dominant eyebrow. Stand in front of a mirror, and try to lift your right eyebrow. Then try to lift only your left eyebrow.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": ">\n\n<details>\n  <summary>Instructions</summary>\n  <p><b>Determining Dominant Eyebrow:</b></p>\n\n  <ol start=\"1\">\n    <li>Stand in front of a mirror.</li>\n    <li>Lift your right eyebrow.</li>\n    <li>Try lifting only your left eyebrow.</li>\n    <li>If you had difficulty lifting both eyebrows at once, but were able to lift one over the other, then that eyebrow is your dominant eyebrow.</li>\n  </ol>\n</details>",
+      "rouge_score": 0.4482758620689655,
+      "cosine_similarity": 0.9033978098368441,
+      "length_ratio": 1.3817567567567568,
+      "children": [
+        {
+          "id": 3,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 5,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 7,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": [
+                    {
+                      "id": 11,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": [
+                        {
+                          "id": 20,
+                          "message": "",
+                          "rouge_score": 0,
+                          "cosine_similarity": 0,
+                          "length_ratio": 0.0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": [
+                    {
+                      "id": 13,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    },
+                    {
+                      "id": 14,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    },
+                    {
+                      "id": 15,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 9,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": [
+                    {
+                      "id": 16,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    },
+                    {
+                      "id": 17,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 6,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 10,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": [
+                    {
+                      "id": 18,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    },
+                    {
+                      "id": 19,
+                      "message": "",
+                      "rouge_score": 0,
+                      "cosine_similarity": 0,
+                      "length_ratio": 0.0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Start caulking one end of the crack. Start at one end of the crack. Point the tube at it, letting the longer side of the tip trail. Squeeze the trigger firmly and with a medium amount of pressure. You need enough caulk to cover the crack without excess cleaning.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 4,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 7,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            },
+            {
+              "id": 8,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": ">\n\n# Caulk\n\n## Objectives & Skills\n\nObjectives and skills for this project may include:\n\n* Understand what caulk is\n* Recognize when caulking is necessary\n* Choose the best caulk for your situation\n* Apply caulk properly\n\n## Keywords\n\nThese are common keywords or phrases used in this lesson. Look out for them when researching the lesson topic online.\n\n* caulk\n* sealant\n* tape\n* weatherstripping\n* silicone\n* polysulfide\n* polyurethane\n* butyl\n* acrylic\n* PVC\n* polyethylene\n* polypropylene\n\n## Lesson",
+      "rouge_score": 0.08849557522123894,
+      "cosine_similarity": 0.6501927598543829,
+      "length_ratio": 1.9198473282442747,
+      "children": [
+        {
+          "id": 5,
+          "message": " (optional) If you'd like to see an example of how to apply this information, go back to the [Caulk](https://github.com/try-github/practice-projects/tree/master/caulk) repository and read its README.md file.\n\n<!-- #TOC link=\"auto\" depth=\"4\" -->\n\n- [1. What Is Caulk?](#1-what-is-caulk)\n    - [1.1. Types Of Caulk](#11-types-of-caulk)\n        + [1.1.1. Silicone](#111-silicone)\n        + [1.1.2.",
+          "rouge_score": 0.13675213675213674,
+          "cosine_similarity": 0.7019810855123331,
+          "length_ratio": 1.5038167938931297,
+          "children": [
+            {
+              "id": 9,
+              "message": " </s>\n\n## 1. What is caulking?\n\n> Cauking is a waterproofing solution that is applied between two surfaces to prevent water from leaking in or out of them. It typically contains sealants, adhesives, and other materials to form a cohesive layer on the surface.",
+              "rouge_score": 0.15384615384615383,
+              "cosine_similarity": 0.7471633293011013,
+              "length_ratio": 0.9885496183206107,
+              "children": []
+            },
+            {
+              "id": 10,
+              "message": " -->\n## 1. What Is Caulk?\n\nThis section discusses why caulking is used in construction, as well as different types of caulk available for use.\nIt also covers common questions about caulking, including whether it's necessary or harmful, if it can be used outdoors,\nand what happens when it dries out.\n\n### 1.1. Types Of Caulk\n\nThere are several types of caulk that are suitable for various uses, such as sealing gaps between windows, doors, and\nwalls; filling cracks around pipes and wires; repairing leaking roofs; and more. Commonly used types include silicones,\npolyure",
+              "rouge_score": 0.09859154929577466,
+              "cosine_similarity": 0.7810591163589489,
+              "length_ratio": 2.1793893129770994,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": "-->\n\n## 1. What is caulk?\n\n### 1.1. Types of caulking\n\nThere are several types of sealant available for use in a variety of situations. The type you should use will depend on what it's going to be used for. For instance, some products are designed to be flexible, others rigid, and still more are waterproof.\n\n#### 1.1.1. Silicone\nSilicones are rubbery substances that can bend and flex without breaking. They're very effective at sealing around windows, doors, and sinks. However, they do require specific tools for application and may not work well in",
+              "rouge_score": 0.18055555555555555,
+              "cosine_similarity": 0.7755836435808968,
+              "length_ratio": 2.1106870229007635,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 12,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

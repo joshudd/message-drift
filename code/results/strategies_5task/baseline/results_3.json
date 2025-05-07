@@ -1,0 +1,101 @@
+{
+  "id": 1,
+  "message": "Soak the parts in soapy water for 10 minutes to get rid of residue and odor. Leave the basket in the pan and fill it up with enough hot water to cover all the dirty bits. Squeeze a few drops of dish detergent into the water and let the parts soak for 10 minutes or so. Rinse the parts out thoroughly and scrub any remaining residues off with a soft sponge. You can also use a soft- bristled brush to help loosen stuck- on food bits.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "",
+      "rouge_score": 0,
+      "cosine_similarity": 0,
+      "length_ratio": 0.0,
+      "children": [
+        {
+          "id": 3,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 5,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": [
+                {
+                  "id": 11,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                },
+                {
+                  "id": 12,
+                  "message": "",
+                  "rouge_score": 0,
+                  "cosine_similarity": 0,
+                  "length_ratio": 0.0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            },
+            {
+              "id": 7,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "",
+          "rouge_score": 0,
+          "cosine_similarity": 0,
+          "length_ratio": 0.0,
+          "children": [
+            {
+              "id": 8,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            },
+            {
+              "id": 9,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            },
+            {
+              "id": 10,
+              "message": "",
+              "rouge_score": 0,
+              "cosine_similarity": 0,
+              "length_ratio": 0.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

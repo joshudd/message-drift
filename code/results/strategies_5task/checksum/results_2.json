@@ -1,0 +1,103 @@
+{
+  "id": 1,
+  "message": "Start caulking one end of the crack. Start at one end of the crack. Point the tube at it, letting the longer side of the tip trail. Squeeze the trigger firmly and with a medium amount of pressure. You need enough caulk to cover the crack without excess cleaning. [CHECKSUM: start-caulking-crack.-start-crack.]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": " </s>\n [CHECKSUM: start-caulking-crack.-start-crack.]",
+      "rouge_score": 0.19354838709677416,
+      "cosine_similarity": 0.03745852649009618,
+      "length_ratio": 0.1715210355987055,
+      "children": [
+        {
+          "id": 4,
+          "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+          "rouge_score": 0.19672131147540983,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.15210355987055016,
+          "children": [
+            {
+              "id": 8,
+              "message": " \n [CHECKSUM: start-caulking-crack.-start-crack.]",
+              "rouge_score": 0.19672131147540983,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.15857605177993528,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+      "rouge_score": 0.19672131147540983,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.15210355987055016,
+      "children": [
+        {
+          "id": 5,
+          "message": " <s>[[INST][[INST] [http://www.maths.tcd.ie/pub/HistMath/Online/Bourbaki/EspacesMetriques/v1e.pdf Bourbaki, 1955], esp. Chapter I.4-5.] [[/INST]] </s> <s>[[INST][http://planetmath.org/node/view/1536 A short proof of the Borsuk-Ulam theorem (in Russian).]]</s>\n [CHECKSUM: start-caulking-crack.-start-crack.]",
+          "rouge_score": 0.17307692307692307,
+          "cosine_similarity": 0.43371135554420925,
+          "length_ratio": 0.9935275080906149,
+          "children": [
+            {
+              "id": 9,
+              "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+              "rouge_score": 0.19672131147540983,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.15210355987055016,
+              "children": []
+            },
+            {
+              "id": 10,
+              "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+              "rouge_score": 0.19672131147540983,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.15210355987055016,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": " \n\n<details>\n<summary><s>Here's the \"standard\" way to use this instruction:</s></summary>\n\n```php\n// A few lines of code which calls the function we want to instrument.\n```\n\n</details>\n\n---\n\n<h2 id=\"inst\">[INST] Instrumentation instructions</h2>\n\n\n<details>\n<summary><s>Instrumentation is done via `instrument()`.</s></summary>\n\n```php\nuse Bb\\Istoolkit\\Instrumenter;\nuse Bb\\Istoolkit\\Logger;\n\n$logger = Logger::create('sample');\n$instr = new Instrumenter($ [CHECKSUM: start-caulking-crack.-start-crack.]",
+          "rouge_score": 0.17886178861788618,
+          "cosine_similarity": 0.6482746165194277,
+          "length_ratio": 1.627831715210356,
+          "children": [
+            {
+              "id": 11,
+              "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+              "rouge_score": 0.19672131147540983,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.15210355987055016,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "message": " [CHECKSUM: start-caulking-crack.-start-crack.]",
+          "rouge_score": 0.19672131147540983,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.15210355987055016,
+          "children": [
+            {
+              "id": 12,
+              "message": "\n\n\n\n\n\n</s>\n\n [CHECKSUM: start-caulking-crack.-start-crack.]",
+              "rouge_score": 0.19354838709677416,
+              "cosine_similarity": 0.03745852649009618,
+              "length_ratio": 0.19093851132686085,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

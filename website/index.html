@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang=" en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      NLP Class Project | Spring 2025 CSCI 5541 | University of Minnesota
+    </title>
+
+    <link rel="stylesheet" href="./src/bulma.min.css" />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link href="./src/css2.txt" rel="stylesheet" />
+    <link href="./src/css.txt" rel="stylesheet" />
+
+    <base href="." target="_blank" />
+  </head>
+
+  <body>
+    <div>
+      <div class="wrapper">
+        <h1 style="font-family: 'Lato', sans-serif">
+          A Study on Information Transmission and Transformation in LLM-Based
+          Multi-Agent Systems for Effective Collaboration
+        </h1>
+        <h4 style="font-family: 'Lato', sans-serif">
+          Spring 2025 CSCI 5541 NLP: Class Project - University of Minnesota
+        </h4>
+        <h4 style="font-family: 'Lato', sans-serif">
+          InterAgent Communication Lab
+        </h4>
+
+        <div class="authors-wrapper">
+          <div class="author-container">
+            <div class="author-image">
+              <img src="" />
+            </div>
+            <p>Beñat Froemming-Aldanondo</p>
+          </div>
+
+          <div class="author-container">
+            <div class="author-image">
+              <img src="" />
+            </div>
+            <p>Joshua Dickinson</p>
+          </div>
+
+          <div class="author-container">
+            <div class="author-image">
+              <img src="" />
+            </div>
+            <p>Daniel Bielejeski</p>
+          </div>
+
+          <div class="author-container">
+            <div class="author-image">
+              <img src="" />
+            </div>
+            <p>Isaac Ash-Johnson</p>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="authors-wrapper">
+          <div class="publication-links">
+            <!-- Github link -->
+            <span class="link-block">
+              <a
+                href=""
+                target="_blank"
+                class="external-link button is-normal is-rounded is-dark is-outlined"
+              >
+                <span>Final Report</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a
+                href=""
+                target="_blank"
+                class="external-link button is-normal is-rounded is-dark is-outlined"
+              >
+                <span>Code</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a
+                href=""
+                target="_blank"
+                class="external-link button is-normal is-rounded is-dark is-outlined"
+              >
+                <span>Model Weights</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <hr />
+
+      <h2 id="abstract">Abstract</h2>
+
+      <p>
+        Understanding how information is transmitted and transformed within
+        LLM-based multi-agent systems is crucial for effective collaborative AI.
+        This project investigates the "telephone game" phenomenon in a
+        tree-structured agent network using paraphrasing models to simulate
+        message propagation. Our analysis reveals significant message
+        degradation through semantic similarity metrics (ROUGE & cosine
+        similarity), with information loss increasing at deeper tree levels.
+      </p>
+
+      <hr />
+
+      <h2 id="teaser">Preliminary Results</h2>
+
+      <p>
+        A visualization of our agent communication tree showing how information
+        transforms as it propagates from the root agent to leaf agents. The
+        graphs reveal decreasing ROUGE scores (information preservation) at each
+        level of propagation as well as decreasing cosine similarity scores
+        (semantic preservation) at each level of propagation.
+      </p>
+
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/rouge-tree.png"
+            alt="Agent tree with ROUGE scores showing information degradation"
+          />
+        </p>
+        <caption>
+          Figure 1. ROUGE-1 scores across agent generations
+        </caption>
+      </div>
+
+      <br />
+      <br />
+
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/similarity-tree.png"
+            alt="Agent tree with cosine similarity scores showing information degradation"
+          />
+        </p>
+        <caption>
+          Figure 2. Cosine similarity scores across agent generations
+        </caption>
+      </div>
+
+      <h3 id="the-timeline-and-the-highlights">Message Transformation</h3>
+
+      <p>
+        Our experiment demonstrates how an initially clear instruction becomes
+        increasingly distorted as it's passed between agents using paraphrasing
+        LLMs. Original recipe instructions about lime juice preparation evolve
+        to include non-existent ingredients and procedures by the third
+        generation of message transmission.
+      </p>
+
+      <hr />
+
+      <h2 id="introduction">Introduction / Background / Motivation</h2>
+
+      <p>
+        <b
+          >What did you try to do? What problem did you try to solve? Articulate
+          your objectives using absolutely no jargon.</b
+        >
+      </p>
+      <p>
+        Throughout history, human communication demonstrates that information
+        rarely remains unchanged as it passes from person to person. Stories,
+        legends, and historical events evolve over time, shaped by biases,
+        interpretations, and conflicting memories of those who transmit them.
+        The legend of King Arthur illustrates this phenomenon, as it has been
+        told and adapted by many authors throughout centuries. We investigate
+        whether large language models (LLMs) exhibit similar behaviors in
+        information transmission. Using a simulated "telephone game" experiment
+        with multiple successors rather than linear chains, we aim to understand
+        how messages transform as they propagate through a network of AI agents,
+        similar to information spread in human populations.
+      </p>
+
+      <p>
+        <b
+          >How is it done today, and what are the limits of current practice?</b
+        >
+      </p>
+      <p>
+        While extensive research has explored the behavior of individual LLMs,
+        studies on their interaction are relatively limited. Existing research
+        on the telephone game with LLMs primarily focuses on linear chains of
+        transmission. For example, one study by Perez et al. (2024) tracked how
+        text properties like toxicity, positivity, difficulty, and length evolve
+        through iterated interactions between LLMs. Another multilingual study
+        by Mohamed et al. (2025) demonstrated that distortion increases with
+        time and complexity but can be mitigated with strategic prompting.
+        However, these studies are limited to linear chains, which don't
+        accurately reflect how information spreads in real-world populations or
+        collaborative multi-agent systems.
+      </p>
+
+      <p></p>
+
+      <p>
+        <b>Who cares? If you are successful, what difference will it make?</b>
+      </p>
+      <p>
+        Understanding information transmission between LLMs has critical
+        implications for collaborative AI systems, particularly in applications
+        like swarm robotics. Imagine a swarm of robots collaborating on a common
+        task, where only one robot receives the initial instructions. If each
+        robot has its own LLM, the message must propagate accurately through the
+        swarm. Any distortion could cause robots to pursue different objectives,
+        compromising collaborative efficiency. Our research not only enhances
+        understanding of LLMs' potential for cumulative cultural evolution and
+        their vulnerability to biases but also provides key insights for
+        designing reliable AI communication systems where message integrity is
+        essential for coordinated action. The findings could inform better agent
+        communication protocols, more robust information sharing mechanisms, and
+        improved task delegation in complex AI systems.
+      </p>
+
+      <hr />
+
+      <h2 id="approach">Approach</h2>
+
+      <p>
+        <b
+          >What did you do exactly? How did you solve the problem? Why did you
+          think it would be successful? Is anything new in your approach?</b
+        >
+      </p>
+
+      <p>TODO</p>
+
+      <p>To measure information degradation, we applied two key metrics:</p>
+      <ol>
+        <li>
+          ROUGE-1 score: comparing word overlap between original and paraphrased
+          messages
+        </li>
+        <li>
+          Cosine similarity on word embeddings: comparing semantic similarity
+          despite different wording
+        </li>
+      </ol>
+
+      <p>
+        <b
+          >What problems did you anticipate? What problems did you encounter?
+          Did the very first thing you tried work?</b
+        >
+      </p>
+
+      <p>TODO</p>
+
+      <hr />
+
+      <h2 id="results">Results</h2>
+      <p>
+        <b
+          >How did you measure success? What experiments were used? What were
+          the results, both quantitative and qualitative? Did you succeed? Did
+          you fail? Why?</b
+        >
+      </p>
+      TODO
+      <p>
+        We measured information preservation through two metrics: ROUGE-1 scores
+        (measuring lexical overlap) and cosine similarity (measuring semantic
+        similarity). Our experiment with a 10-agent tree revealed several key
+        findings:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center"><strong>Agent</strong></th>
+            <th style="text-align: center">Generation</th>
+            <th style="text-align: center">ROUGE-1 Score</th>
+            <th style="text-align: center">Cosine Similarity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center"><strong>1 (Root)</strong></td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">1.0</td>
+            <td style="text-align: center">1.0</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">
+              <strong>First-level (2-5)</strong>
+            </td>
+            <td style="text-align: center">1</td>
+            <td style="text-align: center">0.45-0.65</td>
+            <td style="text-align: center">0.90-0.94</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">
+              <strong>Second-level (6-10)</strong>
+            </td>
+            <td style="text-align: center">2</td>
+            <td style="text-align: center">0.30-0.49</td>
+            <td style="text-align: center">0.81-0.91</td>
+          </tr>
+        </tbody>
+        <caption>
+          Table 1. ROUGE-1 scores and cosine similarity measurements across
+          agent generations
+        </caption>
+      </table>
+      <br />
+      <!-- <div style="text-align: center">
+        <img
+          style="height: 300px"
+          alt="Visualization of information degradation through agent tree"
+          src="./src/results.png"
+        />
+      </div> -->
+      <br /><br />
+
+      <hr />
+
+      <h2 id="conclusion">Conclusion and Future Work</h2>
+      <p>TODO</p>
+
+      <hr />
+    </div>
+  </body>
+</html>

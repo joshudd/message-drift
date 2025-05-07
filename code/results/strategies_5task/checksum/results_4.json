@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Search for your laptop model online to find out if the keys come off. On some laptop models, the keycaps can be gently pried off, giving you access to the surface beneath the keys. However, the keycaps on some laptops are permanently attached. Do an online search to determine if, and how, the keys can be removed. [CHECKSUM: search-laptop-model-online-laptop]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+      "rouge_score": 0.17391304347826084,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.12777777777777777,
+      "children": [
+        {
+          "id": 3,
+          "message": " </s> [editline]\n<o> [INST] <b><u>Paraphrase</u></b> this instruction but preserve all important details. (e.g., \"If you want to see the source code of a function, then look at its header file.\") (optional, but highly recommended)  [CHECKSUM: search-laptop-model-online-laptop]",
+          "rouge_score": 0.18518518518518517,
+          "cosine_similarity": 0.748043587089816,
+          "length_ratio": 0.7694444444444445,
+          "children": [
+            {
+              "id": 4,
+              "message": " </o>\n\n [CHECKSUM: search-laptop-model-online-laptop]",
+              "rouge_score": 0.17142857142857143,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.14722222222222223,
+              "children": [
+                {
+                  "id": 7,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                },
+                {
+                  "id": 8,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                },
+                {
+                  "id": 9,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "message": " </o>\n [CHECKSUM: search-laptop-model-online-laptop]",
+              "rouge_score": 0.17142857142857143,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.14444444444444443,
+              "children": [
+                {
+                  "id": 10,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "message": " </o>\n [CHECKSUM: search-laptop-model-online-laptop]",
+              "rouge_score": 0.17142857142857143,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.14444444444444443,
+              "children": [
+                {
+                  "id": 11,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                },
+                {
+                  "id": 12,
+                  "message": " [CHECKSUM: search-laptop-model-online-laptop]",
+                  "rouge_score": 0.17391304347826084,
+                  "cosine_similarity": 0.0,
+                  "length_ratio": 0.12777777777777777,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

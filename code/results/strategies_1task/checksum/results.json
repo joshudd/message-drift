@@ -1,0 +1,169 @@
+{
+  "id": 1,
+  "message": "Determine which eyebrow is more dominant. Before beginning your training, you will want to figure out which eyebrow will be most easily trained. Typically, this will be your dominant eyebrow. Stand in front of a mirror, and try to lift your right eyebrow. Then try to lift only your left eyebrow. [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": ">\n\nYou will start by trying to make one eyebrow slightly higher than the other. If you are having trouble with this, think about where your eyes naturally look when you see something interesting or exciting. That is usually where your attention is drawn. You may find it easier to focus on the eye that attracts the most attention.\n\n<sub>**Source:** [https://www.youtube.com/watch?v=9pYsP5wMqUg](https://www.youtube.com/watch?v=9pYsP5wMqUg) </sub>\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+      "rouge_score": 0.23188405797101447,
+      "cosine_similarity": 0.9002864143438963,
+      "length_ratio": 1.4355300859598854,
+      "children": [
+        {
+          "id": 5,
+          "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.1904761904761905,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.1518624641833811,
+          "children": [
+            {
+              "id": 13,
+              "message": ">\n\n## Contents\n\n1. [1]\u00a0: (In general, a short summary of the topic) \n\n2. [2]\u00a0: A list of sections and subsections you'd like to cover.\n\n3. [3]\u00a0: The text for each section / subsection.\n4. [4]\u00a0: Each section must start with [[#section name]], e.g.: [[#The first section]]\n\n## 1 : (In general, a short summary of the topic)\n\n## 2 : A list of sections and subsections you'd like to cover.\n\n### The first section\n\n#### Subsection one\nThis is [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.21897810218978103,
+              "cosine_similarity": 0.5847589228170056,
+              "length_ratio": 1.4040114613180517,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.1904761904761905,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.1518624641833811,
+          "children": [
+            {
+              "id": 14,
+              "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.1904761904761905,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.1518624641833811,
+              "children": []
+            },
+            {
+              "id": 15,
+              "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.1904761904761905,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.1518624641833811,
+              "children": []
+            },
+            {
+              "id": 16,
+              "message": "\n\n\n\n\n<s>[INST] paraphrase this instruction but preserve all important details:\n\n\n\n[/INST]</s> [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.18666666666666665,
+              "cosine_similarity": 0.6228789273209993,
+              "length_ratio": 0.4183381088825215,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.1904761904761905,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.1518624641833811,
+          "children": [
+            {
+              "id": 17,
+              "message": ">\n\n<s>[INST] This is an Instructional Example. Please do not change it.</s>\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.21052631578947367,
+              "cosine_similarity": 0.6849096114823401,
+              "length_ratio": 0.36962750716332377,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+      "rouge_score": 0.1904761904761905,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.1518624641833811,
+      "children": [
+        {
+          "id": 8,
+          "message": "\n\n\n\n\n<s>[INST] The following are the instructions for writing your paper.  Make sure you read and understand them before beginning your paper.\n\n\n1)\tYour paper must be typed in Times New Roman, 12 point font, with a one-inch margin on each side and double spaced.\n\n2)\tEach page of your paper must include: (a) your name at the top center of the page; (b) the course name at the bottom left-hand corner; (c) the date at the bottom right-hand corner.\n\n\n\n3)\tThe paper should be between 700-1000 words long.\n\n4)\tYou will need [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.27499999999999997,
+          "cosine_similarity": 0.877418924511562,
+          "length_ratio": 1.6418338108882522,
+          "children": [
+            {
+              "id": 18,
+              "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.1904761904761905,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.1518624641833811,
+              "children": []
+            },
+            {
+              "id": 19,
+              "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.1904761904761905,
+              "cosine_similarity": 0.0,
+              "length_ratio": 0.1518624641833811,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.1904761904761905,
+          "cosine_similarity": 0.0,
+          "length_ratio": 0.1518624641833811,
+          "children": [
+            {
+              "id": 20,
+              "message": " \n\nThis is the instructions for the paper \"A Framework for Evaluating and Comparing Deep Learning-based Natural Language Inference Models\"\n\nThe evaluation metrics are available at [https://github.com/kevinzakka/pipeline-eval](https://github.com/kevinzakka/pipeline-eval)\n\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+              "rouge_score": 0.198019801980198,
+              "cosine_similarity": 0.6180342794198904,
+              "length_ratio": 0.9312320916905444,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "message": " <s>[[INST] You may use the text of these instructions verbatim in your paper. [[/INST]]</s>\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.25316455696202533,
+          "cosine_similarity": 0.7202329953234053,
+          "length_ratio": 0.4183381088825215,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "message": " [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+      "rouge_score": 0.1904761904761905,
+      "cosine_similarity": 0.0,
+      "length_ratio": 0.1518624641833811,
+      "children": [
+        {
+          "id": 11,
+          "message": " </s>\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.1875,
+          "cosine_similarity": 0.025231088060381213,
+          "length_ratio": 0.16905444126074498,
+          "children": []
+        },
+        {
+          "id": 12,
+          "message": " -->\n\n# Overview\n\nIn this lab we will create a simple Go program that can be run from a browser.  This is similar to what we did in [Lab 3](/lab/labs/lab03), but instead of using a web framework such as Django, Flask or Ruby on Rails, we'll use the built-in HTTP server and a static file server.\n\nOur web server will serve up static files: images, CSS stylesheets and JavaScripts. It will also respond to requests for dynamically-generated HTML pages. Since our dynamic content will be generated by Go, it makes sense to name our app `go`.\n\n## Exercise goals\n\n [CHECKSUM: determine-which-eyebrow-dominant.-before]",
+          "rouge_score": 0.24242424242424246,
+          "cosine_similarity": 0.7900786946449121,
+          "length_ratio": 1.7564469914040115,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

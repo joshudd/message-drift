@@ -1,0 +1,105 @@
+{
+  "id": 1,
+  "message": "Step 1: Start caulking one end of the crack\nStep 2: Start at one end of the crack\nStep 3: Point the tube at it, letting the longer side of the tip trail\nStep 4: Squeeze the trigger firmly and with a medium amount of pressure\nStep 5: You need enough caulk to cover the crack without excess cleaning.",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "Step 1:  <s>Make sure you are using a quality caulking. The best ones for cracks in concrete or brick are: Elasto-Glass, Flex Seal, or DAP.</s>\n\n[INST] Start caulking one end of the crack and then work your way down to the other end.\n\n[INST] When caulking around windows, door frames, etc., be sure that you are applying enough caulk at each joint so that it is just about full when you start the next joint.\n\n[INST] Be sure not to overfill the joints, since this will cause the caulk to bulge out and eventually crack.\n\n[\nStep 2: \nStep 3: \nStep 4: >\n\n</s>\nStep 5: ",
+      "rouge_score": 0.3975903614457831,
+      "cosine_similarity": 0.8974046903394077,
+      "length_ratio": 1.895973154362416,
+      "children": [
+        {
+          "id": 3,
+          "message": "Step 1: \nStep 2: \nStep 3:  # install dependencies\n\n# if you are using an old version of `python`, use one of the following commands:\n# brew update\n# brew upgrade python3\n\n\nbrew install python3\n\nStep 4: \nStep 5: ",
+          "rouge_score": 0.3191489361702127,
+          "cosine_similarity": 0.67935190107472,
+          "length_ratio": 0.7080536912751678,
+          "children": [
+            {
+              "id": 4,
+              "message": "Step 1:  1. [INSTALL] Download and install the latest version of the following drivers:\n\n    -   Intel graphics driver\n    -   NVIDIA driver\n\n    -   AMD Radeon or FirePro GPU driver\n    -   The latest version of Adobe Reader or Acrobat software from adobe.com/downloads.\n\n        If you're running macOS Sierra 10.12, don't use a previous version of Adobe Reader or Acrobat. Instead, download the [macOS 10.12](https://helpx.adobe.com/acrobat/kb/mac-osx-1024.html) version.\n2. [INSTALL] Download and extract the [latest\nStep 2:   <s>\n\n## Introduction\n\nThis guide will show you how to setup your own VPN server using OpenVPN on Ubuntu Server. We'll also be setting up a custom certificate authority (CA) and signing certificates for our clients.\n\nOpenVPN is an SSL-based virtual private network solution that implements OSI layer 2 or 3 secure network extension using the industry standard SSL/TLS protocol, supports flexible client authentication and cipher options and provides several tunneling protocols.\n\nA VPN server allows remote users to securely connect to their corporate networks over the Internet. The user's system connects directly to the VPN server; once connected it appears as if they were actually\nStep 3: \nStep 4: \nStep 5: \n\n\n\n\n\n<\n\n  </s>",
+              "rouge_score": 0.19379844961240308,
+              "cosine_similarity": 0.6398458212666949,
+              "length_ratio": 4.218120805369128,
+              "children": [
+                {
+                  "id": 5,
+                  "message": "Step 1: \nStep 2: \nStep 3:  \n\nFor more information about the [[Inst]] command, see\n[[inst]].</s>\n\n=== [[#Using a string to select an object|Using a string to select an object]] ===\n\nA string is composed of characters enclosed in double quotes. For example, \"object_name\" selects the named object.\n\nTo create strings:\n- Type a single character and press {{Key|Shift|Tab}} or {{Key|Ctrl+Space}}.\n- Select multiple characters by holding down one of the shift keys while typing the characters. To select all characters between two other characters (for example, \"a\" and \"z\"), type \"\nStep 4:  <s>Set the following environment variables before running the script. The first four are defined in the installation instructions, while the last one is used by the installation scripts to identify the version of the module being installed.</s>\n\n<s>[INST]\n\n  # Set this variable when installing a new release.\n  export MODULE_VERSION=1.5.2\n\n  # Set this variable when upgrading from an older release.\n  export MODULE_VERSION_UPGRADE=\"\"\n\n  # Set this variable when installing or upgrading modules that\n  # already exist on your system (or which were built as part of\n  # another module build).\n  export MODULE\nStep 5:  ==Instructions==\n\nYou must have a current account with an authorized bank.  The following are known to work:\n\n* Citibank - see [http://www.citigroup.com/privacy/privacycenter/en.html Privacy Information]\n* Chase Manhattan Bank - see [http://www.chase.com/corp/corp_privacy.jsp Privacy Statement]\n* Deutsche Bank - see [http://www.deutsche-bank.de/pdfs/en/index/pdf/deutsche_bank_privacy_statement.pdf Privacy Policy]\n* HSBC - see [http://www.hsbc.com/legalinfo/privacypolicy.jsp Privacy Statement]\n* Bank of America - see",
+                  "rouge_score": 0.1712538226299694,
+                  "cosine_similarity": 0.7392432152941418,
+                  "length_ratio": 5.791946308724833,
+                  "children": [
+                    {
+                      "id": 7,
+                      "message": "Step 1: \nStep 2:   <s>reword this instruction keeping all key details</s>\n<s>[INST] reword this instruction keeping all key details</s>\n\n\n\n[[File:Create new channel.jpg|center|frameless|none|<s>Click on the \"Add New Channel\" button.</s><s>Click on the Add New Channel button. </s>\n\n<center>Creating a New Channel</center>\n\n\nThe following instructions will help you create a new channel.\n\n===How to create a new channel===\nFirst, click on the '''Add New Channel''' button in the top menu bar of your control panel.\n\n<figure class=\"fullwidth\nStep 3:  2016-12-28 20:44 UTC\n\n===\n\nThe following instructions are for the Linux operating system on a PC. If you are using another operating system, please consult your computer's documentation or ask in #nuxeo.\n\n## Install Nuxeo from source\n\n### Requirements\n\n* Java 8 (OpenJDK should be OK)\n* Maven\n* Git\n\nYou can also install maven from its repository:\n\n`sudo apt-get install maven`\n\nOr download and run the.deb file ([download](http://www.mediawiki.org/wiki/Download#Debian_(_apt_))).\n\n\nStep 4: \nStep 5: ",
+                      "rouge_score": 0.1888412017167382,
+                      "cosine_similarity": 0.7576366746658365,
+                      "length_ratio": 3.5201342281879193,
+                      "children": [
+                        {
+                          "id": 9,
+                          "message": "Step 1:  The following instructions are for using the\n`cublasGEMM` function to perform a matrix-matrix multiply of two matrices. Both input matrices must have dimension $N\\times N$ where $N$ is an integer power of 2, i.e., $N=2^k$.\n\nThe operation performed by this function can be described as follows:\n\n\\begin{align}\nC = \\alpha A B + \\beta C,\n\\end{align}\n\nwhere\n\n- $A$, $B$, and $C$ are matrices such that $A$ has dimensions $(m,n)$, $B$ has dimensions\nStep 2: \nStep 3: >\n\nThe following are the steps to install and configure a FreeIPA server.\n\n1. Download and unpack FreeIPA packages:\n<pre>\n$ wget http://download.fedoraproject.org/pub/epel/7/x86_64/Packages/f/freeipa-server-4.3.5-2.el7.x86_64.rpm\n$ yum localinstall -y freeipa-server-4.3.5-2.el7.x86_64.rpm\n</pre>\nNOTE: You can get the latest version of FreeIPA from the following link:\nhttp://www.freeipa.org/page/Download\n\n2. Configure DNS zones:\n\nStep 4:  </s>\nStep 5: \n\n\n\nWe are going to create a new file called \"test.cc\" which will contain the following code:\n\n[source, cpp]\n----\n#include <iostream>\nusing namespace std;\n\nint main()\n{\n  // Declare an integer variable\n  int myNumber = 5;\n  // Display the value of myNumber on screen\n  cout << \"The number is: \" << myNumber << endl;\n  return 0;\n}\n----",
+                          "rouge_score": 0.1897810218978102,
+                          "cosine_similarity": 0.6944443436616968,
+                          "length_ratio": 4.228187919463087,
+                          "children": [
+                            {
+                              "id": 12,
+                              "message": "Step 1: \nStep 2:  (https://docs.google.com/document/d/1Wg8JZ6h7qPv0i-5cXrBQ4y4e5M7S3mIuN3l2Ht0V_9U/edit?usp=sharing)\nStep 3: \nStep 4:  <s> 1. Create a new directory for the project, and initialize it with npm.\n\n </s>\n\n1. Clone this repository to your local machine\n\n2. Install dependencies by running `npm install`\n\n3. Run the development server:\n\n`npm run dev`\n\nStep 5: >\n\n<s>Make sure to keep all the keys you get after installation, and don't forget to tell your friends about it! (This is a good thing).</s>\n\n\n",
+                              "rouge_score": 0.2585034013605442,
+                              "cosine_similarity": 0.7878731216258437,
+                              "length_ratio": 1.7248322147651007,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "message": "Step 1: \nStep 2:  </s>\n\nStep 3: \nStep 4: \n\n\n\n\n\n[INST] The user is the owner of the file to be encrypted, and will enter a password for use with this program.\n\nThe user must have write access to the directory that contains the file to encrypt.\n\n\n\nIf there are files already in the same location as the one to be encrypted, they must be moved to another folder before encryption can take place. If not, those files will be encrypted along with the file you intend to protect.\n\nTo avoid any confusion, it's best practice to move all existing files to a different location (such as desktop).\n\n</s>\n\nStep 5: ",
+                  "rouge_score": 0.2941176470588235,
+                  "cosine_similarity": 0.723141067218343,
+                  "length_ratio": 2.023489932885906,
+                  "children": [
+                    {
+                      "id": 8,
+                      "message": "Step 1:  This will be the name of your project, so choose something that makes sense.  It is recommended to use the same name as the folder you created in step two.  If you are doing a multi-user installation (see below), the default name will be changed to reflect the user name and machine name.\n\n[INST] Note:  this is an important point - make sure you don't get confused by what appears on screen. The name entered here will be displayed in the title bar of the installer application when it is launched.  You can change this later if necessary.\n\n\n[INST] This is where you specify the destination for the\nStep 2:  \"This means that the current state is not what we expect, and\nthat it will be necessary to change our working set. We can take a look at\nthe current values of some variables to see if they are reasonable.\n\nThe current value of the `r` register is\n\n    r = 7b0f5c00\n\nThe initial value was also 7b0f5c00, so there has been no change here.\n(The value for `t` is also 7b0f5c00.)\n\nThe current value of the `p` register is\n\n    p = 000005d4\n\n\nStep 3: \nStep 4:  [START] \n\n[INST] The [[#Install|install]] process is quite simple. \n[INST] 1. Download the [[http://www.mediawiki.org/wiki/Download|latest stable release]]. You can download it from here. (This link will update automatically when a new version is released.) \n[INST] 2. Upload the archive to your web server. \n[INST] 3. Extract the files in the downloaded archive using your favorite [[http://en.wikipedia.org/wiki/File_format|archiver]] and upload them overwriting the files with the same name on your web server. \n[\nStep 5:  The following instructions are for installing the [EXT] plugin on a [BETA] server.</s>",
+                      "rouge_score": 0.16949152542372883,
+                      "cosine_similarity": 0.7449426770103705,
+                      "length_ratio": 5.654362416107382,
+                      "children": [
+                        {
+                          "id": 10,
+                          "message": "Step 1: \nStep 2: \"\n\n[STRICT_INSTRUMENTATION] - if set to 1 will cause a failure on any test that\nisn't passing.\nStep 3:  [INST][INST]\n[INST][INST]\n\n\n[INST]\n\n</s>\nStep 4:  The main purpose of the `--help` option is to make it easy for you to learn how to use a particular command. For example, if you are using `git help pull`, you will see something like the following:\n\n    Usage: git pull [options] <repository> [<refspec>\u2026\u200b]\n       -h, --help             show summary of options\n       -v, --verbose          be more verbose\n\nThe above shows that there are two options `-h` and `-v`. These options are called flags in the Git world.\n\n[END]\n\n\nThis was written with Git 1.7.0.1\nStep 5: ",
+                          "rouge_score": 0.27118644067796616,
+                          "cosine_similarity": 0.8093989855801317,
+                          "length_ratio": 2.3053691275167787,
+                          "children": []
+                        },
+                        {
+                          "id": 11,
+                          "message": "Step 1: >\n\n### Creating a Project\n\nIn order to create a new project with the **JEdit** IDE, open up the menu by clicking on the gear icon in the top-right corner and select \"Create New Project.\" This will bring up the window shown below.\n\n![CreateNewProject](/images/jedit-create-new-project.png)\n\nChoose the location where you would like to store the project files for your application, and give it a name. Once you have done this, click Create.\n\nYou should now see a folder containing your new project's files appear next to the JEdit IDE. The structure of a typical project file will look similar to\nStep 2: \nStep 3:  <s>**This page is for the current development version of Instaweb.**\n\nThe most recent stable version is available on SourceForge at:\n\n[http://instaweb.sourceforge.net/](http://instaweb.sourceforge.net/)\n\n\n</s>\n\nInstaweb is a simple, lightweight web server which uses PHP scripts to provide dynamic content and serves static files from the local filesystem.\n\nIt aims to be easy to install and configure, requiring no database or other dependencies.\n\n## Installation\n\nTo get started with Instaweb you'll need to obtain the latest source code and then build and install it.  This can be done by\nStep 4: \nStep 5: ",
+                          "rouge_score": 0.20149253731343283,
+                          "cosine_similarity": 0.7475044860723532,
+                          "length_ratio": 4.12751677852349,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

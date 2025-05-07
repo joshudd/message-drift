@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "message": "Cut the wires. Cut one plastic [nid0] connector( plug) off of each wire, you should used dykes [nid1] or wire cutters, but if you don \u2019 t have those a knife or scissors will do. It is important that you cut opposite sides off otherwise the you stand a 50/50 chance of screwing up step [nid3] three. If you look at the connectors with the hook down you should see four wires in this order Black, Red, Green, Yellow from left to right and the other connector will have them in reverse order. Cut the connector with the wires in BRGY off the first wire then the connector with the YGRB off the second [nid2] wire.\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+  "rouge_score": 1.0,
+  "cosine_similarity": 1.0,
+  "length_ratio": 1.0,
+  "children": [
+    {
+      "id": 2,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+      "rouge_score": 0.25641025641025644,
+      "cosine_similarity": 0.4661279241556304,
+      "length_ratio": 0.19418758256274768,
+      "children": [
+        {
+          "id": 4,
+          "message": ">\n\n\n```python\nimport pandas as pd\nimport numpy as np\n\n# Load the data and drop some rows at the beginning \ndf = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')\ndf.drop(df.iloc[:2], inplace=True)\ndf.head()\n```\n\n\n\n\n<div>\n<style scoped>\n   .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n   .dataframe tbody tr th {\n        vertical-align: top;\n   \n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+          "rouge_score": 0.21645021645021648,
+          "cosine_similarity": 0.6260204830889174,
+          "length_ratio": 0.8441215323645971,
+          "children": [
+            {
+              "id": 8,
+              "message": " <s>  </s>\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+              "rouge_score": 0.25316455696202533,
+              "cosine_similarity": 0.46616229913825347,
+              "length_ratio": 0.21003963011889035,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+          "rouge_score": 0.25641025641025644,
+          "cosine_similarity": 0.4661279241556304,
+          "length_ratio": 0.19418758256274768,
+          "children": [
+            {
+              "id": 9,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+              "rouge_score": 0.25641025641025644,
+              "cosine_similarity": 0.4661279241556304,
+              "length_ratio": 0.19418758256274768,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+          "rouge_score": 0.25641025641025644,
+          "cosine_similarity": 0.4661279241556304,
+          "length_ratio": 0.19418758256274768,
+          "children": [
+            {
+              "id": 10,
+              "message": "\n\n\n\n\n\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+              "rouge_score": 0.25641025641025644,
+              "cosine_similarity": 0.4661279241556304,
+              "length_ratio": 0.20079260237780713,
+              "children": []
+            },
+            {
+              "id": 11,
+              "message": "\n\n\n\n\n# 3.2 A first look at JavaScript\n\nA number of programming languages are designed to make it easy for a computer programmer to write code that is both readable and maintainable. One such language is called Java.\n\n## 3.2.1 Why Java?\n\nYou may have noticed that there has been an explosion of mobile apps in recent years. These apps run on devices like smartphones or tablets, making them easier to access the internet and share information with friends and family. You can also download music from iTunes and view movies on Netflix. All these things require software running on the device you\u2019re using. But how does this work\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+              "rouge_score": 0.3458646616541354,
+              "cosine_similarity": 0.7894930842196228,
+              "length_ratio": 1.0224570673712021,
+              "children": []
+            },
+            {
+              "id": 12,
+              "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+              "rouge_score": 0.25641025641025644,
+              "cosine_similarity": 0.4661279241556304,
+              "length_ratio": 0.19418758256274768,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+      "rouge_score": 0.25641025641025644,
+      "cosine_similarity": 0.4661279241556304,
+      "length_ratio": 0.19418758256274768,
+      "children": [
+        {
+          "id": 7,
+          "message": "\n\nLegend (keep these identifiers intact):\n[nid0] marks 'plastic'\n[nid1] marks 'dykes'\n[nid2] marks 'second'\n[nid3] marks 'step'\n[nid4] marks 'red,'",
+          "rouge_score": 0.25641025641025644,
+          "cosine_similarity": 0.4661279241556304,
+          "length_ratio": 0.19418758256274768,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
