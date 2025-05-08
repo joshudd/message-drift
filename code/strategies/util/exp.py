@@ -96,43 +96,8 @@ def visualize_agent_tree_with_rouge(root, filename="agent_tree_rouge"):
 
 # load mistral model for paraphrasing (or use a smaller model if memory constrained)
 def setup_llm(model_name):
-    """setup language model for paraphrasing tasks
-    
-    available models:
-    - "gpt2": small and fast but less accurate
-    - "distilgpt2": even smaller and faster
-    - "tiiuae/falcon-rw-1b": good balance of speed/quality
-    - "facebook/opt-125m": tiny but very fast
-    - "mistral-small:24b-instruct-2501-q4_K_M": best quality, 24b parameters, apache license (requires Ollama)
-    """
+    """setup language model for paraphrasing tasks"""
     try:
-
-        # model_id = "meta-llama/Llama-3.2-1B-Instruct"
-        # tokenizer = AutoTokenizer.from_pretrained(model_id, token=os.environ["HUGGINGFACE_TOKEN"]) 
-        # model = AutoModelForCausalLM.from_pretrained(model_id, token=os.environ["HUGGINGFACE_TOKEN"])
-        # pipe = pipeline(
-        #     "text-generation", model=model, tokenizer=tokenizer, max_new_tokens=200
-        # )
-        # hf = HuggingFacePipeline(pipeline=pipe)
-        
-        # if model_name == "openfree/Mistral-Small-3.1-24B-Instruct-2503-Q6_K-GGUF":
-        #     model = model_name
-        #     tokenizer = model_name
-        #     pipe = pipeline(
-        #         "text-generation",
-        #         model=model,
-        #         tokenizer=tokenizer,
-        #         max_new_tokens=128,
-        #         do_sample=True,
-        #         temperature=0.7,
-        #         top_p=0.95,
-        #         repetition_penalty=1.1,
-        #         return_full_text=False
-        #     )
-        #     return pipe
-        
-        
-        
         print(f"loading {model_name} model for paraphrasing...")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
