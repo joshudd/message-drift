@@ -344,3 +344,8 @@ caption {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.link-block {
+  margin-right: 15px;
+  display: inline-block;
+}

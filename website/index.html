@@ -36,30 +36,30 @@
 
         <div class="authors-wrapper">
           <div class="author-container">
-            <div class="author-image">
+            <!-- <div class="author-image">
               <img src="" />
-            </div>
+            </div> -->
             <p>Beñat Froemming-Aldanondo</p>
           </div>
 
           <div class="author-container">
-            <div class="author-image">
+            <!-- <div class="author-image">
               <img src="" />
-            </div>
+            </div> -->
             <p>Joshua Dickinson</p>
           </div>
 
           <div class="author-container">
-            <div class="author-image">
+            <!-- <div class="author-image">
               <img src="" />
-            </div>
+            </div> -->
             <p>Daniel Bielejeski</p>
           </div>
 
           <div class="author-container">
-            <div class="author-image">
+            <!-- <div class="author-image">
               <img src="" />
-            </div>
+            </div> -->
             <p>Isaac Ash-Johnson</p>
           </div>
         </div>
@@ -68,32 +68,22 @@
 
         <div class="authors-wrapper">
           <div class="publication-links">
-            <!-- Github link -->
             <span class="link-block">
               <a
-                href=""
+                href="https://github.com/joshudd/message-drift/blob/main/paper.pdf"
                 target="_blank"
                 class="external-link button is-normal is-rounded is-dark is-outlined"
               >
-                <span>Final Report</span>
+                <span>Paper</span>
               </a>
             </span>
             <span class="link-block">
               <a
-                href=""
+                href="https://github.com/joshudd/message-drift"
                 target="_blank"
                 class="external-link button is-normal is-rounded is-dark is-outlined"
               >
-                <span>Code</span>
-              </a>
-            </span>
-            <span class="link-block">
-              <a
-                href=""
-                target="_blank"
-                class="external-link button is-normal is-rounded is-dark is-outlined"
-              >
-                <span>Model Weights</span>
+                <span>GitHub</span>
               </a>
             </span>
           </div>
@@ -107,13 +97,7 @@
       <h2 id="abstract">Abstract</h2>
 
       <p>
-        Understanding how information is transmitted and transformed within
-        LLM-based multi-agent systems is crucial for effective collaborative AI.
-        This project investigates the "telephone game" phenomenon in a
-        tree-structured agent network using paraphrasing models to simulate
-        message propagation. Our analysis reveals significant message
-        degradation through semantic similarity metrics (ROUGE & cosine
-        similarity), with information loss increasing at deeper tree levels.
+        While significant research has focused on the behavior of individual large language models (LLMs), less attention has been paid to how information is transmitted and transformed between them. In human communication, it is well known that stories evolve as they are passed down through speech and writing. Inspired by this phenomenon, we investigate whether LLMs preserve message integrity in a simulated "telephone game" setting. Our study adopts a multi-agent framework motivated by swarm robotics, where distributed agents must share tasks without losing essential information. Experiments using GPT-4.1 reveal that message degradation occurs in distinct ways depending on prompt design.
       </p>
 
       <hr />
@@ -121,11 +105,7 @@
       <h2 id="teaser">Preliminary Results</h2>
 
       <p>
-        A visualization of our agent communication tree showing how information
-        transforms as it propagates from the root agent to leaf agents. The
-        graphs reveal decreasing ROUGE scores (information preservation) at each
-        level of propagation as well as decreasing cosine similarity scores
-        (semantic preservation) at each level of propagation.
+        Our experiments with different prompting strategies reveal how messages change as they propagate through a network of LLMs. Below are visualizations showing how various metrics degrade through message propagation.
       </p>
 
       <div style="text-align: center">
@@ -136,7 +116,7 @@
           />
         </p>
         <caption>
-          Figure 1. ROUGE-1 scores across agent generations
+          Figure 5. ROUGE-1 scores across agent generations
         </caption>
       </div>
 
@@ -151,18 +131,14 @@
           />
         </p>
         <caption>
-          Figure 2. Cosine similarity scores across agent generations
+          Figure 6. Cosine similarity scores across agent generations
         </caption>
       </div>
 
       <h3 id="the-timeline-and-the-highlights">Message Transformation</h3>
 
       <p>
-        Our experiment demonstrates how an initially clear instruction becomes
-        increasingly distorted as it's passed between agents using paraphrasing
-        LLMs. Original recipe instructions about lime juice preparation evolve
-        to include non-existent ingredients and procedures by the third
-        generation of message transmission.
+        Our experiments reveal that even simple prompt variations can lead to significant semantic drift, affecting both message clarity and task success. We tested multiple prompting strategies including copy-paste, rewording, explaining, summarizing, changing tone, optimizing, expanding, distorting, explaining to a child, and breaking into steps. While some strategies preserved meaning better than others, no method was immune to degradation over multiple generations besides direct copy-paste.
       </p>
 
       <hr />
@@ -240,17 +216,49 @@
         >
       </p>
 
-      <p>TODO</p>
-
-      <p>To measure information degradation, we applied two key metrics:</p>
+      <p>
+        Our research introduces two key innovations in studying LLM information transmission:
+      </p>
+      
       <ol>
         <li>
-          ROUGE-1 score: comparing word overlap between original and paraphrased
-          messages
+          We extend beyond traditional linear chain "telephone game" studies by incorporating multiple successors and one-to-many relationships, better simulating message propagation across a population or swarm of agents.
         </li>
         <li>
-          Cosine similarity on word embeddings: comparing semantic similarity
-          despite different wording
+          Unlike prior studies that only focus on rewording or paraphrasing in each propagation step, we test 10 different propagation strategies including direct, explanatory, and adversarial prompts.
+        </li>
+      </ol>
+      
+      <p>
+        We implemented a pipeline that begins by randomly selecting tasks from datasets like HowTo100M (YouTube tutorial transcripts) and RecipeBox (recipe instructions). We then initialize a random communication tree with parameters including depth=8, num_agents=80, and max_children=3, creating a structure where each node has a single parent and 0-3 children.
+      </p>
+      
+      <p>
+        Starting from the root node, the task propagates through the tree using different prompting strategies: copy-paste, reword, explain, summarize, change tone to casual, optimize, expand, distort, explain to a child, and break into steps. Each node's output becomes the input for its children.
+      </p>
+
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/pipeline.png"
+            alt="Pipeline diagram showing the experiment process"
+          />
+        </p>
+        <caption>
+          Figure 1. Pipeline for the telephone game experiment
+        </caption>
+      </div>
+
+      <p>To measure information degradation, we applied three key metrics:</p>
+      <ol>
+        <li>
+          Length ratio: comparing how message length changes through propagation
+        </li>
+        <li>
+          ROUGE score: comparing word overlap between original and propagated messages
+        </li>
+        <li>
+          Cosine similarity of embeddings: measuring semantic drift despite different wording
         </li>
       </ol>
 
@@ -261,7 +269,13 @@
         >
       </p>
 
-      <p>TODO</p>
+      <p>
+        We encountered significant challenges when testing with smaller models like LLaMA 3.2-3B and Mistral 7B Instruct. Both showed rapid degradation primarily due to formatting and prompt interpretation issues. Since each model's output became the input for the next agent, consistent formatting was critical. In contrast, GPT-4.1 performed reliably with minimal guidance.
+      </p>
+      
+      <p>
+        In our second experiment involving problem-solving tasks, we found that explanatory prompts often omitted critical information such as numerical values, rendering many problems unsolvable. Overall, prompt design and formatting had a significant impact on message transmission reliability.
+      </p>
 
       <hr />
 
@@ -273,65 +287,112 @@
           you fail? Why?</b
         >
       </p>
-      TODO
+      
       <p>
-        We measured information preservation through two metrics: ROUGE-1 scores
-        (measuring lexical overlap) and cosine similarity (measuring semantic
-        similarity). Our experiment with a 10-agent tree revealed several key
-        findings:
+        We conducted experiments on five distinct randomly generated tasks and tree structures, tracking how messages changed through propagation. Our findings show:
       </p>
+      
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/chart0.png"
+            alt="Chart showing average length ratio by depth"
+          />
+        </p>
+        <caption>
+          Figure 2. Average Length Ratio by depth
+        </caption>
+      </div>
+
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/chart1.png"
+            alt="Chart showing average ROUGE score by depth"
+          />
+        </p>
+        <caption>
+          Figure 3. Average ROUGE score by depth
+        </caption>
+      </div>
+
+      <div style="text-align: center">
+        <p class="sys-img">
+          <img
+            src="./assets/chart2.png"
+            alt="Chart showing average embeddings similarity by depth"
+          />
+        </p>
+        <caption>
+          Figure 4. Average embeddings similarity by depth
+        </caption>
+      </div>
+      
+      <ol>
+        <li>
+          <strong>Message Length:</strong> Copy-paste preserved original length as expected. Rewording, breaking into steps, and child-friendly explanations slightly altered length. Expanding tasks significantly increased length, while distortion and explanation caused moderate growth. Casual tone conversion, summarization, and optimization consistently shortened messages.
+        </li>
+        <li>
+          <strong>Word Overlap (ROUGE):</strong> Shared word sequences dropped sharply after the first transmission and then stabilized. Distortion and expansion prompts altered wording most significantly.
+        </li>
+        <li>
+          <strong>Semantic Preservation:</strong> Rewording retained meaning most closely, aligning with prior research. However, summarization and explanation prompts, despite seeming simple, resulted in considerable semantic loss.
+        </li>
+      </ol>
+      
+      <p>
+        In our problem-solving experiment, we tested whether transformed messages remained functional:
+      </p>
+      
       <table>
         <thead>
           <tr>
-            <th style="text-align: center"><strong>Agent</strong></th>
-            <th style="text-align: center">Generation</th>
-            <th style="text-align: center">ROUGE-1 Score</th>
-            <th style="text-align: center">Cosine Similarity</th>
+            <th style="text-align: center"><strong>Outcome</strong></th>
+            <th style="text-align: center">Reword</th>
+            <th style="text-align: center">Explain</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style="text-align: center"><strong>1 (Root)</strong></td>
+            <td style="text-align: center">Correct</td>
+            <td style="text-align: center">80</td>
+            <td style="text-align: center">38</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">Incorrect</td>
             <td style="text-align: center">0</td>
-            <td style="text-align: center">1.0</td>
-            <td style="text-align: center">1.0</td>
+            <td style="text-align: center">3</td>
           </tr>
           <tr>
-            <td style="text-align: center">
-              <strong>First-level (2-5)</strong>
-            </td>
-            <td style="text-align: center">1</td>
-            <td style="text-align: center">0.45-0.65</td>
-            <td style="text-align: center">0.90-0.94</td>
-          </tr>
-          <tr>
-            <td style="text-align: center">
-              <strong>Second-level (6-10)</strong>
-            </td>
-            <td style="text-align: center">2</td>
-            <td style="text-align: center">0.30-0.49</td>
-            <td style="text-align: center">0.81-0.91</td>
+            <td style="text-align: center">Not enough info</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">39</td>
           </tr>
         </tbody>
         <caption>
-          Table 1. ROUGE-1 scores and cosine similarity measurements across
-          agent generations
+          Table 1. Outcomes of problem-solving tasks after message propagation
         </caption>
       </table>
       <br />
-      <!-- <div style="text-align: center">
-        <img
-          style="height: 300px"
-          alt="Visualization of information degradation through agent tree"
-          src="./src/results.png"
-        />
-      </div> -->
-      <br /><br />
+      
+      <p>
+        Rewording preserved task accuracy perfectly (80/80 correct), while explaining led to a significant performance drop, with only 38 correct responses, 3 incorrect, and 39 lacking enough information to solve the problem.
+      </p>
 
       <hr />
 
       <h2 id="conclusion">Conclusion and Future Work</h2>
-      <p>TODO</p>
+      <p>
+        We investigated how messages change as they propagate through a network of large language models using a branching communication structure and diverse prompting strategies. Our results show that even simple prompt variations can lead to significant semantic drift, affecting both message clarity and task success. Although some strategies preserved meaning better than others, no method was immune to degradation over multiple generations besides direct copy-paste.
+      </p>
+      
+      <p>
+        Additionally, smaller models like LLaMA 3.2–3B and Mistral 7B struggled with formatting and maintaining message integrity, often leading to confusion or hallucination. These findings highlight the difficulty of ensuring reliable communication in multi-agent LLM systems.
+      </p>
+      
+      <p>
+        While our work does not pose immediate societal risks, in the future, as swarm robotics becomes more advanced, unreliable communication among LLMs could lead to failures in critical applications. Future directions include exploring dynamic feedback, bidirectional communication, and deploying these methods in physical multi-agent environments, such as robot swarms engaged in collaborative tasks.
+      </p>
 
       <hr />
     </div>
